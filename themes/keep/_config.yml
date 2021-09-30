@@ -38,9 +38,9 @@ style:
 
   # First screen
   first_screen:
-    enable: false
+    enable: true
     background_img:    # You can use local image or image external link
-    description: Keep writing and Keep loving.
+    description: '<span id="jinrishici-sentence"></span>'
 
   # Scroll style settings
   scroll:
