@@ -6,14 +6,20 @@
  <td>host</td>
  <td>port</td>
  <td>sn</td>
+ <td>theme</td>
+ <td>iu</td>
+ <td>font</td>
 </tr>
 <tr>
  <td>服务器地址</td>
  <td>端口</td>
  <td>服务器名称(可选)</td>
+ <td>主题(可选)有light,dark,diy三个主题</td>
+ <td>图像链接(可选)使用需要将主题填为diy</td>
+ <td>字体链接(可选)</td>
 </tr>
 </table>
-示例:<br />http://xma.info.xmweb.gq/api/mcsi?host=xxx&port=xxx&sn=xxx
+示例:<br />http://xma.info.xmweb.gq/api/mcsi?host=xxx&port=xxx&sn=xxx&theme=xxx&iu=xxx&font=xxx
 <h1>Minecraft服务器检测</h1>
 调用地址:http://xma.info.xmweb.gq/api/mcsi<br />
 参数:<br />
