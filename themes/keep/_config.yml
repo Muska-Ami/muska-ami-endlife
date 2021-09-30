@@ -40,7 +40,7 @@ style:
   first_screen:
     enable: true
     background_img:    # You can use local image or image external link
-    description: '<span id="jinrishici-sentence"></span>'
+    description: "XiaMoHuaHuo-CN's Blog"
 
   # Scroll style settings
   scroll:
