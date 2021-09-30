@@ -21,7 +21,7 @@
  <td>字体颜色(可选,限diy模式使用)
 </tr>
 </table>
-示例:<br />http://xma.info.xmweb.gq/api/mcsiws?host=xxx&port=xxx&sn=xxx&theme=xxx&iu=xxx&font=xxx
+示例:<br />http://xma.info.xmweb.gq/api/mcsiws?host=xxx&port=xxx&sn=xxx&theme=xxx&iu=xxx&font=xxx&color=xxx
 <h1>Minecraft服务器检测</h1>
 调用地址:http://xma.info.xmweb.gq/api/mcsi<br />
 参数:<br />
