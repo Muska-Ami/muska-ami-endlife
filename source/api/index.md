@@ -9,14 +9,16 @@
  <td>theme</td>
  <td>iu</td>
  <td>font</td>
+ <td>color</td>
 </tr>
 <tr>
  <td>服务器地址</td>
  <td>端口</td>
  <td>服务器名称(可选)</td>
  <td>主题(可选)有light,dark,diy三个主题</td>
- <td>图像链接(可选)使用需要将主题填为diy</td>
+ <td>图像链接(可选)使用需要将主题填为diy,图像大小建议 540px × 334px</td>
  <td>字体链接(可选)</td>
+ <td>字体颜色(可选,限diy模式使用)
 </tr>
 </table>
 示例:<br />http://xma.info.xmweb.gq/api/mcsiws?host=xxx&port=xxx&sn=xxx&theme=xxx&iu=xxx&font=xxx
