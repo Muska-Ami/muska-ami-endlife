@@ -1,5 +1,6 @@
 <h1>二维码生成</h1>
 调用地址:https://xma.info.xmweb.gq/api/QR
+参数:<br />
 <table border="1">
 <tr>
  <td>url</td>
