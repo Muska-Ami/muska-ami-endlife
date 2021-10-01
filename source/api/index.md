@@ -10,6 +10,7 @@
  <td>链接地址</td>
  <td>图像大小(可选)默认5</td>
 </tr>
+</table>
 示例:<br />https://xma.info.xmweb.gq/api/QR?url=xxx&size=xxx
 <h1>Minecraft服务器检测(图像版)</h1>
 调用地址:https://xma.info.xmweb.gq/api/mcsiws<br />
