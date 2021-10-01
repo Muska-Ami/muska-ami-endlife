@@ -1,5 +1,17 @@
+<h1>二维码生成</h1>
+调用地址:https://xma.info.xmweb.gq/api/QR
+<table border="1">
+<tr>
+ <td>url</td>
+ <td>size</td>
+</tr>
+<tr>
+ <td>链接地址</td>
+ <td>图像大小(可选)默认5</td>
+</tr>
+示例:<br />https://xma.info.xmweb.gq/api/QR?url=xxx&size=xxx
 <h1>Minecraft服务器检测(图像版)</h1>
-调用地址:http://xma.info.xmweb.gq/api/mcsiws<br />
+调用地址:https://xma.info.xmweb.gq/api/mcsiws<br />
 参数:<br />
 <table border="1">
 <tr>
@@ -25,7 +37,7 @@
  <td>字体颜色(可选,限diy模式使用)
 </tr>
 </table>
-示例:<br />https://xma.info.xmweb.gq/api/mcsiws?host=xxx&port=xxx&sn=xxx&theme=xxx&iu=xxx&font=xxx&color=xxx
+示例:<br />https://xma.info.xmweb.gq/api/mcsiws?host=xxx&port=xxx&sn=xxx&theme<br />=xxx&iu=xxx&font=xxx&color=xxx
 <h1>Minecraft服务器检测</h1>
 调用地址:https://xma.info.xmweb.gq/api/mcsi<br />
 参数:<br />
