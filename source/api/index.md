@@ -1,4 +1,5 @@
 <h1>二维码生成</h1>
+示例<br /><img src="https://api.huahuo-cn.tk/QR?url=https://huahuo-cn.tk&size=8">
 调用地址:https://api.huahuo-cn.tk/QR
 参数:<br />
 <table border="1">
@@ -13,6 +14,7 @@
 </table>
 示例:<br />https://api.huahuo-cn.tk/QR?url=xxx&size=xxx
 <h1>Minecraft服务器检测(图像版)</h1>
+演示:<br /><img src="https://api.huahuo-cn.tk/mcsiws?host=mc.hypxiel.com&port=25565&sn=Hypxiel">
 调用地址:https://api.huahuo-cn.tk/mcsiws<br />
 参数:<br />
 <table border="1">
