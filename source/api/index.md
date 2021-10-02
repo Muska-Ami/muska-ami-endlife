@@ -1,5 +1,5 @@
 <h1>二维码生成</h1>
-示例<br /><img src="https://api.huahuo-cn.tk/QR?url=https://huahuo-cn.tk&size=8">
+演示:<br /><img src="https://api.huahuo-cn.tk/QR?url=https://huahuo-cn.tk&size=8">
 调用地址:https://api.huahuo-cn.tk/QR
 参数:<br />
 <table border="1">
