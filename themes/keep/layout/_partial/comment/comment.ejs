@@ -6,10 +6,6 @@
     <% if (theme.comment.enable === true && theme.comment.hasOwnProperty(theme.comment.use)) { %>
         <% if  (theme.comment.use === 'valine') { %>
             <%- partial('valine') %>
-        <% } else if (theme.comment.use === 'gitalk') { %>
-            <%- partial('gitalk') %>
-        <% } else if (theme.comment.use === 'twikoo') { %>
-            <%- partial('twikoo') %>
         <% } %>
     <% } %>
 </div>
