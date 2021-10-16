@@ -180,10 +180,9 @@ comment:
   # Valine
   # See: https://github.com/xCss/Valine
   valine:
-    appId: xJJPI1nLKBnU4M34rOTpFEyg-gzGzoHsz
-    appKey: niywn63w6krbjTsEUPtzLoWV
-    avatar: R-C.jpg
-    placeholder: 随便说点什么叭～
+    appId: 'xJJPI1nLKBnU4M34rOTpFEyg-gzGzoHsz'
+    appKey: 'niywn63w6krbjTsEUPtzLoWV'
+    enableQQ: true
     visitor: true
 
 
