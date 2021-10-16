@@ -39,7 +39,7 @@ style:
   # First screen
   first_screen:
     enable: true
-    background_img:    # You can use local image or image external link
+    background_img: "https://cdn.jsdelivr.net/gh/XiaMoHuaHuo-CN/XiaMoHuaHuo-CN@Web/source/banner.jpg"    # You can use local image or image external link
     description: "XiaMoHuaHuo-CN's Blog"
 
   # Scroll style settings
