@@ -174,15 +174,15 @@ local_search:
 # Comment plugin
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: true
+  enable: false
+  use: valine  # values: valine | gitalk | twikoo
 
   # Valine
   # See: https://github.com/xCss/Valine
-valine:
-  app_id: xJJPI1nLKBnU4M34rOTpFEyg-gzGzoHsz
-  app_key: niywn63w6krbjTsEUPtzLoWV
-  visitor: true
-  enableQQ: true
+  valine:
+    appid: xJJPI1nLKBnU4M34rOTpFEyg-gzGzoHsz
+    appkey: niywn63w6krbjTsEUPtzLoWV
+    placeholder:          # your placeholder
 
 
 # ---------------------------------------------------------------------------------------
