@@ -1,6 +1,7 @@
 <center>
  <font color="red">禁止滥用本站API</font>
  <br />本站API域名为 http://api.huahuo-cn.tk | https://api2.huahuo-cn.tk 任选其一使用
+</center>
 <h1>二维码生成</h1>
 演示:<br /><img src="https://api.huahuo-cn.tk/QR?url=https://huahuo-cn.tk&size=8">
 调用地址:https://api.huahuo-cn.tk/QR
