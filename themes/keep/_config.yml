@@ -175,15 +175,14 @@ local_search:
 # ---------------------------------------------------------------------------------------
 comment:
   enable: true
-  use: valine
 
   # Valine
   # See: https://github.com/xCss/Valine
-  valine:
-    appId: 'xJJPI1nLKBnU4M34rOTpFEyg-gzGzoHsz'
-    appKey: 'niywn63w6krbjTsEUPtzLoWV'
-    enableQQ: true
-    visitor: true
+valine:
+  app_id: xJJPI1nLKBnU4M34rOTpFEyg-gzGzoHsz
+  app_key: niywn63w6krbjTsEUPtzLoWV
+  visitor: true
+  enableQQ: true
 
 
 # ---------------------------------------------------------------------------------------
