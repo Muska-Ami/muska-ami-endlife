@@ -3,8 +3,8 @@
  <br />本站API域名为 http://api.huahuo-cn.tk | https://api2.huahuo-cn.tk 任选其一使用
 </center>
 <h1>二维码生成</h1>
-演示:<br /><img src="https://api.huahuo-cn.tk/QR?url=https://huahuo-cn.tk&size=8">
-调用地址:https://api.huahuo-cn.tk/QR
+演示:<br /><img src="http://api.huahuo-cn.tk/QR?url=https://huahuo-cn.tk&size=8">
+调用地址:http://api.huahuo-cn.tk/QR
 参数:<br />
 <table border="1">
 <tr>
@@ -16,10 +16,10 @@
  <td>图像大小(可选)默认5</td>
 </tr>
 </table>
-示例:<br />https://api.huahuo-cn.tk/QR?url=xxx&size=xxx
+示例:<br />http://api.huahuo-cn.tk/QR?url=xxx&size=xxx
 <h1>Minecraft服务器检测(图像版)</h1>
-演示:<br /><img src="https://api.huahuo-cn.tk/mcsiws?host=mc.hypixel.net&port=25565&sn=Hypixel">
-调用地址:https://api.huahuo-cn.tk/mcsiws<br />
+演示:<br /><img src="http://api.huahuo-cn.tk/mcsiws?host=mc.hypixel.net&port=25565&sn=Hypixel">
+调用地址:http://api.huahuo-cn.tk/mcsiws<br />
 参数:<br />
 <table border="1">
 <tr>
@@ -45,9 +45,9 @@
  <td>字体颜色(可选,限diy模式使用)
 </tr>
 </table>
-示例:<br />https://api.huahuo-cn.tk/mcsiws?host=xxx&port=xxx&sn=xxx&theme<br />=xxx&iu=xxx&font=xxx&color=xxx
+示例:<br />http://api.huahuo-cn.tk/mcsiws?host=xxx&port=xxx&sn=xxx&theme<br />=xxx&iu=xxx&font=xxx&color=xxx
 <h1>Minecraft服务器检测</h1>
-调用地址:https://api.huahuo-cn.tk/mcsi<br />
+调用地址:http://api.huahuo-cn.tk/mcsi<br />
 参数:<br />
 <table border="1">
 <tr>
@@ -59,20 +59,20 @@
  <td>端口</td>
 </tr>
 </table>
-示例:<br />https://api.huahuo-cn.tk/mcsi?host=xxx&port=xxx
+示例:<br />http://api.huahuo-cn.tk/mcsi?host=xxx&port=xxx
 <h1>每日Bing图</h1>
  <p>演示:<br />
-  <img src="https://api.huahuo-cn.tk/bingpaper/"/><br />
+  <img src="http://api.huahuo-cn.tk/bingpaper/"/><br />
   HTML调用方法:<br />
-  &lt;img src=&quot;https://api.huahuo-cn.tk/bingpaper/&quot;/&gt;<br />
+  &lt;img src=&quot;http://api.huahuo-cn.tk/bingpaper/&quot;/&gt;<br />
   调用地址:<br />
-  https://api.huahuo-cn.tk/bingpaper/<br />
+  http://api.huahuo-cn.tk/bingpaper/<br />
  </p>
 <h1>IP签名档</h1>
  <p>演示:<br />
-  <img src="https://api.huahuo-cn.tk/ip-acg/"/><br />
+  <img src="http://api.huahuo-cn.tk/ip-acg/"/><br />
   HTML调用方法:<br />
-  &lt;img src=&quot;https://api.huahuo-cn.tk/ip-acg/&quot;/&gt;<br />
+  &lt;img src=&quot;http://api.huahuo-cn.tk/ip-acg/&quot;/&gt;<br />
   调用地址:<br />
-  https://api.huahuo-cn.tk/ip-acg/<br />
+  http://api.huahuo-cn.tk/ip-acg/<br />
  </p>
