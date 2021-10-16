@@ -62,11 +62,11 @@
 示例:<br />http://api.huahuo-cn.tk/mcsi?host=xxx&port=xxx
 <h1>每日Bing图</h1>
  <p>演示:<br />
-  <img src="http://api.huahuo-cn.tk/bingpaper/"/><br />
+  <img src="http://api.huahuo-cn.tk/BingImage/"/><br />
   HTML调用方法:<br />
-  &lt;img src=&quot;http://api.huahuo-cn.tk/bingpaper/&quot;/&gt;<br />
+  &lt;img src=&quot;http://api.huahuo-cn.tk/BingImage/&quot;/&gt;<br />
   调用地址:<br />
-  http://api.huahuo-cn.tk/bingpaper/<br />
+  http://api.huahuo-cn.tk/BingImage/<br />
  </p>
 <h1>IP签名档</h1>
  <p>演示:<br />
