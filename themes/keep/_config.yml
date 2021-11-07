@@ -64,18 +64,15 @@ social_contact:
     twitter: https://twitter.com/HuaHuo_CN
     facebook:
     email: xiamohuahuo-cn@qq.com
-    aifadian: https://afdian.net/@HuaHuo-CN
 
 
 # ---------------------------------------------------------------------------------------
 # Navigation menu
 # ---------------------------------------------------------------------------------------
 menu:
-  Home: /
   # Categories: /categories
-  Tags: /tags
   第三方工具: /tools
-  网站镜像: /iso
+  爱发电: https://afdian.net/@HuaHuo-CN
   Music: /music
   API: https://www.skimino.cf
   本站工具: /xmtools
