@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="dist/APlayer.min.css">
+<link rel="stylesheet" href="/music/dist/APlayer.min.css">
 <div id="aplayer"></div>
-<script src="dist/APlayer.min.js"></script>
+<script src="/music/dist/APlayer.min.js"></script>
 <script>
     const ap = new APlayer({
         container: document.getElementById('aplayer'),
