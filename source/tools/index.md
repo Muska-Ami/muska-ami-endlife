@@ -1,3 +1,5 @@
+<h2>天空之城</h2>
+<a href="https://www.skypixel.com/">https://www.skypixel.com/</a>
 <h2>清华Tura开源软件镜像站</h2>
 <a href="https://mirrors.tuna.tsinghua.edu.cn/">https://mirrors.tuna.tsinghua.edu.cn/</a>
 <h2>Vercel</h2>
@@ -11,8 +13,6 @@
 国际版<a href="https://www.leancloud.app/">https://www.leancloud.app/</a>
 <h2>CloudFlare</h2>
 <a href="https://cloudflare.com/">https://cloudflare.com/</a>
-<h2>Vercel</h2>
-<a href="https://vercel.com/">https://vercel.com/</a>
 <h2>ChinaZ站长工具</h2>
 <a href="http://tool.chinaz.com/">http://tool.chinaz.com/</a>
 <h2>jaDelivr</h2>
