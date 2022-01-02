@@ -71,12 +71,11 @@ social_contact:
 # ---------------------------------------------------------------------------------------
 menu:
   # Categories: /categories
-  第三方工具: /tools
+  收藏夹: /favorites
   爱发电: https://afdian.net/@HuaHuo-CN
   Music: /music
-  API: https://www.skimino.cf
-  本站工具: /xmtools
-  #Links: /links
+  API: https://api.skimino.cf
+  友链: /links
   #About: /about
   # Changelog: /changelog
   # ......
