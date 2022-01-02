@@ -27,6 +27,7 @@ height：定义的是横向滚动条的高度。同理不能控制横向滚动�
             background: red;
             border-radius: 2px;
 }
+```
 <h3>::-webkit-scrollbar-track</h3>
 外层轨道，可以用 display:none 让其不显示，也可以添加背景图片，颜色改变显示效果
 - 演示
@@ -45,6 +46,7 @@ height：定义的是横向滚动条的高度。同理不能控制横向滚动�
             background: black;
             border: 1px white solid;
 }
+```
 <h3>::-webkit-scrollbar-corner</h3>
 边角
 <h3>::-webkit-resizer</h3>
