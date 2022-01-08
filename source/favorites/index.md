@@ -1,3 +1,7 @@
+## 美图秀秀
+在线版[https://pc.meitu.com/design/edit/](https://pc.meitu.com/design/edit/)
+## iLoveIMG
+[https://www.iloveimg.com/](https://www.iloveimg.com/)
 ## 阿里云盘
 [https://www.aliyundrive.com/](https://aliyundrive.com/)
 ## VAPTCHA
@@ -43,6 +47,6 @@
 ## IPIP
 [https://ipip.net/](https://ipip.net/)
 ## Audio Tool Set
-[https://audiotoolset.com/cn/](https://audiotoolset.com/cn/)
+[https://audiotoolset.com/](https://audiotoolset.com/)
 ## Steam Database
 [https://steamdb.info/](https://steamdb.info/)
