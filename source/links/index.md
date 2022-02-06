@@ -3,3 +3,5 @@
 交换友链请发送<font color="red">邮件</font>到<a href="mailto:xiamohuahuo-cn@qq.com">xiamohuahuo-cn@qq.com</a>
 ### Charles Blog
 [https://start.shanrenyi.gq/](https://start.shanrenyi.gq/)
+### 俗人博客
+[http://blog.c4dy.cn/](http://blog.c4dy.cn/)
