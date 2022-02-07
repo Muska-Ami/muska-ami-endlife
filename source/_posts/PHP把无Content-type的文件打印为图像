@@ -6,10 +6,14 @@ tag: 教程
 用了GD库，记得开扩展
 ```php
 /**
- * @param url 图片地址
+ * @param string url 图片地址
+ * @param string type 图片类型
 */
 
-switch ($_GET['type']) {
+$url = '';
+$type = '';
+
+switch ($type) {
     case 'png':
         header("Content-type: image/png");
         $im = imagecreatefrompng($url);
