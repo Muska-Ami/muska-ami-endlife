@@ -5,3 +5,5 @@
 [https://start.shanrenyi.gq/](https://start.shanrenyi.gq/)
 ### 俗人博客
 [http://blog.c4dy.cn/](http://blog.c4dy.cn/)
+### 阿付の小破站
+[https://afqaq.com](https://afqaq.com)
