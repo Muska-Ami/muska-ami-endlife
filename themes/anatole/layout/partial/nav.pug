@@ -12,14 +12,19 @@
         a(href="https://afdian.net/@HuaHuo-CN")= __('Afdian')
     li
       if is_archive()
-        a.current(href="/archives")= __('Archive')
+        a.current(href="/archives/")= __('Archive')
       else
-        a(href="/archives")= __('Archive')
+        a(href="/archives/")= __('Archive')
     li
       if is_current('links')
-        a.current(href="/links")= __('Links')					
+        a.current(href="/links/")= __('Links')					
       else
-        a(href="/links")= __('Links')		
+        a(href="/links/")= __('Links')		
+    li
+      if is_current('links')
+        a.current(href="/favorties/")= __('Favorties')					
+      else
+        a(href="/favorties/")= __('Favorties')		
   .information
     .back_btn
       li
