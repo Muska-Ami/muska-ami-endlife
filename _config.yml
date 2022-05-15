@@ -5,10 +5,10 @@
 # Site
 title: XiaMoHuaHuo_CN's Blog
 subtitle: ''
-description: ''
-keywords:
+description: 'XiaMoHuaHuo_CN的博客'
+keywords: 
 author: XiaMoHuaHuo_CN
-language: zh-CN
+language: zh-cn
 timezone: ''
 
 # URL
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: keep
+theme: anatole
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
