@@ -6,10 +6,7 @@
       else
         a(href="/")= __('Home')	
     li
-      if is_current('afdian')
-        a.current(href="https://afdian.net/@HuaHuo-CN")= __('Afdian')			
-      else
-        a(href="https://afdian.net/@HuaHuo-CN")= __('Afdian')
+      a(href="https://afdian.net/@HuaHuo-CN")= __('Afdian')
     li
       if is_archive()
         a.current(href="/archives/")= __('Archive')
@@ -29,9 +26,10 @@
     .back_btn
       li
         if is_post()
-          a.fa.fa-chevron-left(onclick="window.history.go(-1)") 
+          a.fa.fa-chevron-left(onclick="window.history.go(-1)",style="display:none;") 
         else
           a.fa.fa-chevron-left(onclick="window.history.go(-1)",style="display:none;") 
+
     .avatar
       a(href="https://qm.qq.com/cgi-bin/qm/qr?k=jO1Xhh3e2bE-rLHTriIlbLaZ72R3ej0j&noverify=0")
         img(src=theme.avatar)
