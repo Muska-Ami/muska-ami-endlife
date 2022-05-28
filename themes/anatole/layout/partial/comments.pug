@@ -58,7 +58,6 @@ if theme.valine
     if theme.valine.enable == true
         a#comments
         #vcomments(style="margin:0 30px;")
-        script(src='//cdn1.lncld.net/static/js/3.0.4/av-min.js')
         script(src='/js/Valine.min.js')
         script.
           var valine = new Valine({
@@ -70,5 +69,5 @@ if theme.valine
             enableQQ: true,
             placeholder: '#{theme.valine.placeholder}',
             lang: '#{config.language}'.toLowerCase(),
-            qurlid: '#{theme.valine.qurlid}'
+            serverURLs: "#{theme.valine.serverurl}"
           })

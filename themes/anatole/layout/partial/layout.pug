@@ -13,19 +13,3 @@ html(lang="zh-CN")
     script(src= url_for('js/jquery.js'))
     script(src= url_for('js/jquery-migrate-1.2.1.min.js'))
     script(src= url_for('js/jquery.appear.js'))
-    script(src= url_for('vconsole.min.js'))
-    script.
-      const initVConsole = () => {
-        window.vConsole = new window.VConsole({
-          defaultPlugins: ['system', 'network', 'element', 'storage'], // 可以在此设定要默认加载的面板
-          maxLogNumber: 1000,
-          // disableLogScrolling: true,
-          onReady: () => {
-            console.log('vConsole: onReady');
-          },
-          onClearLog: () => {
-            console.log('vConsole: onClearLog');
-          }
-        });
-      };
-      initVConsole();

@@ -3,6 +3,7 @@ keywords: XiaMoHuaHuo_CN,XM,XMCN,HuaHuo_CN,夏沫花火
 author: XiaMoHuaHuo_CN
 description: Keep doing,Keep loving.
 avatar: https://fs.lolimapis.ml/QQUserAvatar/?qc=2549619802
+logo: https://z3.ax1x.com/2021/05/05/gKhOiV.png
 
 # Social Accounts
 twitter: HuaHuo_CN
@@ -21,6 +22,6 @@ valine:
   enable: true
   appid: zrC2pgksyDeBk5vt6nBaeF0S-MdYXbMMI
   appkey: e2sifj5sJfquOUS60xEaHkfM
-  qurlid: zrc2pgks
   placeholder: 说点什么......
+  serverurl: https://zrc2pgks.api.lncldglobal.com
 
