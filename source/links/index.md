@@ -6,4 +6,6 @@
 ### 俗人博客
 [http://blog.c4dy.cn/](http://blog.c4dy.cn/)
 ### 阿付の小破站
-[https://afqaq.com](https://afqaq.com)
+[https://afqaq.com/](https://afqaq.com/)
+### 风雨阁Storm Pavilion
+[https://spcraft.ml/](https://spcraft.ml/)
