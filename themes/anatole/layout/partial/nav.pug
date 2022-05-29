@@ -2,9 +2,9 @@
   .nav
     li
       if is_home()
-        a.current(href="/")= __('Home')					
+        a.current(href="/")= __('Home')
       else
-        a(href="/")= __('Home')	
+        a(href="/")= __('Home')
     li
       a(href="https://afdian.net/@HuaHuo-CN")= __('Afdian')
     li
@@ -14,22 +14,20 @@
         a(href="/archives/")= __('Archive')
     li
       if is_current('links')
-        a.current(href="/links/")= __('Links')					
+        a.current(href="/links/")= __('Links')				
       else
-        a(href="/links/")= __('Links')		
+        a(href="/links/")= __('Links')
     li
       if is_current('favorites')
-        a.current(href="/favorites/")= __('Favorites')					
+        a.current(href="/favorites/")= __('Favorites')
       else
-        a(href="/favorites/")= __('Favorites')		
+        a(href="/favorites/")= __('Favorites')
+    li
+      a(href="https://status.huahuo-cn.tk")="Status"
   .information
     .back_btn
       li
-        if is_post()
-          a.fa.fa-chevron-left(onclick="window.history.go(-1)",style="display:none;") 
-        else
-          a.fa.fa-chevron-left(onclick="window.history.go(-1)",style="display:none;") 
-
+        a.fa.fa-chevron-left(onclick="window.history.go(-1)",style="display:none;") 
     .avatar
-      a(href="https://qm.qq.com/cgi-bin/qm/qr?k=jO1Xhh3e2bE-rLHTriIlbLaZ72R3ej0j&noverify=0")
+      a(href="http://wpa.qq.com/msgrd?v=3&uin=2549619802&site=qq&menu=no")
         img(src=theme.avatar)
