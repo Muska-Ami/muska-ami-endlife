@@ -1,8 +1,8 @@
 .sidebar.animated.fadeInDown
   .logo-title
     .title
-      img(src= url_for(theme.logo),style="width:127px;border-radius: 50px;")
-      h3(title="")
+      img(src= url_for(theme.logo.url),style="width:127px;border-radius: 50px;")
+      h3(title=theme.logo.title)
         a(href="/")= config.title
       if theme.description
         .description
