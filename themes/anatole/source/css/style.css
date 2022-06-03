@@ -184,7 +184,7 @@ a:hover, a:active {
 }
 .sidebar .logo-title {
   text-align: center;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 .sidebar .logo-title .description {
   font-size: 14px;
@@ -653,6 +653,12 @@ a.btn {
   padding-top: 50px;
 }
 
+@media screen and (min-width: 960px) {
+	.hrline {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 960px) {
   .sidebar {
     width: 100%;
@@ -685,11 +691,19 @@ a.btn {
     position: absolute;
   }
 
-  .footer {
+  /*.footer {
     display: none;
-  }
+  }*/
+  .content {
+		margin-top: 650px;
+	}
 
   .share {
     display: grid;
   }
+
+  .hrline {
+    transform: translate(0, 200px);
+		border-bottom: 1px solid #f2f2f2;
+	}
 }
