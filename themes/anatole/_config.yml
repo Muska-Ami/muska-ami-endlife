@@ -22,9 +22,12 @@ disqus:
 gentie: 
 # Valine comments https://valine.js.org
 valine:
-  enable: true
+  enable: false
   appid: zrC2pgksyDeBk5vt6nBaeF0S-MdYXbMMI
   appkey: e2sifj5sJfquOUS60xEaHkfM
   placeholder: 说点什么......
   serverurl: https://zrc2pgks.api.lncldglobal.com
-
+waline:
+  enable: true
+  serverurl: https://comments.xmdisk.ga
+  placeholder: 说点什么......

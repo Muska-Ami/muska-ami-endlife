@@ -71,3 +71,19 @@ if theme.valine
             lang: '#{config.language}'.toLowerCase(),
             serverURLs: "#{theme.valine.serverurl}"
           })
+
+if theme.waline
+    if theme.waline.enable == true
+        a#comments
+        #wcomments(style="margin:0 30px;")
+        link(rel="stylesheet",href=url_for("css/waline.min.css"))
+        script(src='/js/waline.min.js')
+        script.
+          Waline.init({
+            el: '#wcomments',
+            meta: ['nick', 'mail', 'link'],
+            avatar: 'wavatar',
+            enableQQ: true,
+            lang: '#{config.language}'.toLowerCase(),
+            serverURL: "#{theme.waline.serverurl}"
+          })
