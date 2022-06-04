@@ -1,6 +1,11 @@
 doctype
 html(lang="zh-CN")
   head
+    script(src=url_for('/js/print_copyright.js'))
+    
+    script(src= url_for('js/jquery.js'))
+    script(src= url_for('js/jquery-migrate-1.2.1.min.js'))
+    script(src= url_for('js/jquery.appear.js'))
     include head
 
   body
@@ -9,7 +14,4 @@ html(lang="zh-CN")
       include nav
 
       block content
-
-    script(src= url_for('js/jquery.js'))
-    script(src= url_for('js/jquery-migrate-1.2.1.min.js'))
-    script(src= url_for('js/jquery.appear.js'))
+      block search
