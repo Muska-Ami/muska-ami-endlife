@@ -3,7 +3,7 @@
     .title
       img(src= url_for(theme.logo.url),style="width:127px;border-radius: 50px;")
       h3(title=theme.logo.title)
-        a(href="/")= config.title
+        a(href="/")= theme.sidebar_title
       if theme.description
         .description
           p= theme.description

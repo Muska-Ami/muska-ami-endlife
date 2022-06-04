@@ -706,4 +706,8 @@ a.btn {
     transform: translate(0, 200px);
 		border-bottom: 1px solid #f2f2f2;
 	}
+
+  .sidebar .logo-title .title {
+    width: 95vw;
+  }
 }
