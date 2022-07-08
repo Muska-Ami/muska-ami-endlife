@@ -103,7 +103,3 @@ theme: anatole
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
-tipue_search_db:
-  exclude_page: false   # Default posts and pages are included in generated db file, you can exclude pages by value true
-  path: '/tipuesearch/tipuesearch_content.js'   # Custom db file path, base on directory '${blog_root}/public'
