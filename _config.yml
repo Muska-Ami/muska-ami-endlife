@@ -9,7 +9,7 @@ description: 'XiaMoHuaHuo_CN的博客'
 keywords: 
 author: XiaMoHuaHuo_CN
 language: zh-CN
-timezone: '8'
+timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
