@@ -1,5 +1,5 @@
 ---
-title: 'MineCraft CMI插件白嫖'
+title: 'Minecraft CMI插件白嫖'
 date: 2021-07-03 16:12:53
 tags: MineCraft
 ---
