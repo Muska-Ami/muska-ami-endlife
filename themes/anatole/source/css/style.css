@@ -653,12 +653,6 @@ a.btn {
   padding-top: 50px;
 }
 
-@media screen and (min-width: 960px) {
-	.hrline {
-		display: none;
-	}
-}
-
 @media screen and (max-width: 960px) {
   .sidebar {
     width: 100%;
@@ -701,11 +695,6 @@ a.btn {
   .share {
     display: grid;
   }
-
-  .hrline {
-    transform: translate(0, 200px);
-		border-bottom: 1px solid #f2f2f2;
-	}
 
   .sidebar .logo-title .title {
     width: 95vw;
