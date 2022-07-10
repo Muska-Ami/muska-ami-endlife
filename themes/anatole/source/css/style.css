@@ -688,6 +688,9 @@ a.btn {
   /*.footer {
     display: none;
   }*/
+  .footer {
+    transfrom: translate(0, 20px);
+  }
   .content {
 		margin-top: 650px;
 	}
