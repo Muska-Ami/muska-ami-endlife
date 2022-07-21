@@ -1,7 +1,7 @@
 .sidebar.animated.fadeInDown
   .logo-title
     .title
-      img(src= url_for(theme.logo.url),style="width:127px;border-radius: 50px;")
+      img(src= url_for(theme.logo.url),style="width:127px;border-radius: 50%;")
       h3(title=theme.logo.title)
         a(href="/")= theme.sidebar_title
       if theme.description
@@ -13,14 +13,6 @@
       li
         a(href="https://twitter.com/" + theme.twitter)
           i.fa.fa-twitter
-    if theme.instagram
-      li
-        a(href="http://instagram.com/" + theme.instagram)
-          i.fa.fa-instagram
-    if theme.rss
-      li
-        a(href= url_for(theme.rss))
-          i.fa.fa-rss
     if theme.weibo
       li
         a(href="http://weibo.com/" + theme.weibo)
