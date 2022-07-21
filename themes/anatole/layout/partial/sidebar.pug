@@ -1,7 +1,7 @@
 .sidebar.animated.fadeInDown
   .logo-title
     .title
-      img(src= url_for(theme.logo.url),style="width:127px;border-radius: 50%;")
+      img(src=url_for(theme.logo.url),style="width:127px;border-radius: 50%;")
       h3(title=theme.logo.title)
         a(href="/")= theme.sidebar_title
       if theme.description
@@ -9,16 +9,21 @@
           p= theme.description
 
   ul.social-links
-    if theme.twitter
+    if theme.barlink.twitter
       li
-        a(href="https://twitter.com/" + theme.twitter)
+        a(href="https://twitter.com/" + theme.barlink.twitter)
           i.fa.fa-twitter
-    if theme.weibo
+    if theme.barlink.weibo
       li
-        a(href="http://weibo.com/" + theme.weibo)
+        a(href="http://weibo.com/" + theme.barlink.weibo)
           i.fa.fa-weibo
-    if theme.github
+    if theme.barlink.afdian
       li
-        a(href="http://github.com/" + theme.github)
+        a(href="https://afdian.net/@" + theme.barlink.afdian)
+          i.fa
+            img(src=url_for("https://img.xmdisk.ga/api?path=/blog/afdian.png&raw=true"),style ="height:13px;transform:translate(0,1.5px)")
+    if theme.barlink.github
+      li
+        a(href="http://github.com/" + theme.barlink.github)
           i.fa.fa-github
   include footer

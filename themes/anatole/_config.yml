@@ -10,12 +10,11 @@ logo:
 icon: /images/favicon.png
 
 # Social Accounts
-twitter: XiaMoHuaHuo_CN
-rss: 
-weibo: 
-instagram: 
-github: XiaMoHuaHuo-CN
-facebook: 
+barlink:
+  twitter: XiaMoHuaHuo_CN
+  weibo: 
+  github: XiaMoHuaHuo-CN
+  afdian: HuaHuo-CN
 
 # Comment
 duoshuo: 
