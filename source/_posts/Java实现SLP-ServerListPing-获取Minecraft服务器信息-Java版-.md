@@ -1,0 +1,248 @@
+---
+title: 'Java实现SLP(ServerListPing)获取Minecraft服务器信息(Java版)'
+date: 2022-7-24 12:47:12
+tag: 教程
+---
+## SLP原理
+
+[https://wiki.vg](https://wiki.vg)上面有详细说明，发包给Minecraft服务器就行
+
+## 实现
+
+具体代码在下面，感谢猫车车重写JSON解析部分(旧的是zh32做的，JSON解析错误然后就换了阿里的FastJSON)
+
+```java
+package xmcn.example.Utils;
+
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import java.io.ByteArrayOutputStream;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.InetSocketAddress;
+import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 感谢猫车车重写部分代码
+ * @author zh32 <zh32 at zh32.de>
+ */
+public class ServerListPing {
+
+    private static final ServerListPing slp1 = new ServerListPing();
+
+    private static InetSocketAddress host;
+    private int timeout = 7000;
+    private static String Max;
+    private static String protocol;
+    private static String online;
+    private static String servername;
+    public static String Motd;
+    public static String getMax() {
+        return Max;
+    }
+
+    private void setMax(String max) {
+        Max = max;
+    }
+
+    public static String getOnline() {
+        return online;
+    }
+
+    private void setOnline(String online) {
+        ServerListPing.online = online;
+    }
+
+    public static String getProtocol() {
+        return protocol;
+    }
+
+    private void setProtocol(String protocol) {
+        ServerListPing.protocol = protocol;
+    }
+
+    public static String getServername() {
+        return servername;
+    }
+
+    private void setServerName(String servername) {
+        ServerListPing.servername = servername;
+    }
+
+    public static String getMotd() {
+        return Motd;
+    }
+
+    private void setMotd(String motd) {
+        Motd = motd;
+    }
+
+    public void setAddress(InetSocketAddress host) {
+        this.host = host;
+    }
+
+    public InetSocketAddress getAddress() {
+        return this.host;
+    }
+
+    public void setTimeout(int timeout) {
+        this.timeout = timeout;
+    }
+
+    public int getTimeout() {
+        return this.timeout;
+    }
+
+    public int readVarInt(DataInputStream in) throws IOException {
+        int i = 0;
+        int j = 0;
+        while (true) {
+            int k = in.readByte();
+            i |= (k & 0x7F) << j++ * 7;
+            if (j > 5) throw new RuntimeException("VarInt too big");
+            if ((k & 0x80) != 128) break;
+        }
+        return i;
+    }
+
+    public void writeVarInt(DataOutputStream out, int paramInt) throws IOException {
+        while (true) {
+            if ((paramInt & 0xFFFFFF80) == 0) {
+                out.writeByte(paramInt);
+                return;
+            }
+
+            out.writeByte(paramInt & 0x7F | 0x80);
+            paramInt >>>= 7;
+        }
+    }
+
+    public void fetchData() throws IOException {
+
+        Socket socket = new Socket();
+        OutputStream outputStream;
+        DataOutputStream dataOutputStream;
+        InputStream inputStream;
+        InputStreamReader inputStreamReader;
+
+        socket.setSoTimeout(this.timeout);
+
+        socket.connect(host, timeout);
+
+        outputStream = socket.getOutputStream();
+        dataOutputStream = new DataOutputStream(outputStream);
+
+        inputStream = socket.getInputStream();
+        inputStreamReader = new InputStreamReader(inputStream);
+
+        ByteArrayOutputStream b = new ByteArrayOutputStream();
+        DataOutputStream handshake = new DataOutputStream(b);
+        handshake.writeByte(0x00); //packet id for handshake
+        writeVarInt(handshake, 4); //protocol version
+        writeVarInt(handshake, host.getHostString().length()); //host length
+        handshake.writeBytes(host.getHostString()); //host string
+        handshake.writeShort(host.getPort()); //port
+        writeVarInt(handshake, 1); //state (1 for handshake)
+
+        writeVarInt(dataOutputStream, b.size()); //prepend size
+        dataOutputStream.write(b.toByteArray()); //write handshake packet
+
+
+        dataOutputStream.writeByte(0x01); //size is only 1
+        dataOutputStream.writeByte(0x00); //packet id for ping
+        DataInputStream dataInputStream = new DataInputStream(inputStream);
+        int size = readVarInt(dataInputStream); //size of packet
+        int id = readVarInt(dataInputStream); //packet id
+
+        if (id == -1) {
+            throw new IOException("Premature end of stream.");
+        }
+
+        if (id != 0x00) { //we want a status response
+            throw new IOException("Invalid packetID");
+        }
+        int length = readVarInt(dataInputStream); //length of json string
+
+        if (length == -1) {
+            throw new IOException("Premature end of stream.");
+        }
+
+        if (length == 0) {
+            throw new IOException("Invalid string length.");
+        }
+
+        byte[] in = new byte[length];
+        dataInputStream.readFully(in);  //read json string
+        String json = new String(in);
+
+
+        long now = System.currentTimeMillis();
+        dataOutputStream.writeByte(0x09); //size of packet
+        dataOutputStream.writeByte(0x01); //0x01 for ping
+        dataOutputStream.writeLong(now); //time!?
+
+        readVarInt(dataInputStream);
+        id = readVarInt(dataInputStream);
+        if (id == -1) {
+            throw new IOException("Premature end of stream.");
+        }
+
+        if (id != 0x01) {
+            throw new IOException("Invalid packetID");
+        }
+        //read response
+
+        JSONObject object = JSON.parseObject(json);
+        JSONObject players = JSON.parseObject(object.get("players").toString());
+        JSONObject description = JSON.parseObject(object.get("description").toString());
+        JSONObject version = JSON.parseObject(object.get("version").toString());
+        List<Object> list = new ArrayList<Object>(JSON.parseArray(String.valueOf(description.get("extra"))));
+
+        StringBuilder Motd = new StringBuilder();
+        for (Object o : list) {
+            JSONObject text = JSON.parseObject(o.toString());
+            Motd.append(text.get("text"));
+        }
+
+        slp1.setMax(players.get("max").toString());
+        slp1.setOnline(players.get("online").toString());
+        slp1.setProtocol(version.get("protocol").toString());
+        slp1.setServerName(version.get("name").toString());
+        slp1.setMotd(Motd.toString());
+
+        dataOutputStream.close();
+        outputStream.close();
+        inputStreamReader.close();
+        inputStream.close();
+        socket.close();
+    }
+
+}
+```
+
+## 调用
+
+先设置服务器地址，类型是java.net.InetSocketAddress
+
+```java
+InetSocketAddress isa = new InetSocketAddress(String host, int port);
+ServerListPing slp = new ServerListPing();
+slp.setAddress(isa);
+
+// 也可以手动设置延迟，单位ms，不设置默认是7000
+//slp.setTimeout(int timeout);
+```
+
+然后通过ServerListPing.fetchData()方法获得数据
+
+```java
+slp.fetchData();
+```
+
+得到数据之后会自动解析，调static方法获得数据，具体自己翻吧，懒得打了
