@@ -12,7 +12,7 @@ tag: 教程
 具体代码在下面，感谢猫车车重写JSON解析部分(旧的是zh32做的，JSON解析错误然后就换了阿里的FastJSON)
 
 ```java
-package xmcn.example.Utils;
+package moe.xmcn.example;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -29,66 +29,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 感谢猫车车重写部分代码
- * @author zh32 <zh32 at zh32.de>
+ * @author  XiaMoHuaHuo_CN
+ * @author  zh32 <zh32 at zh32.de>
+ * @author  猫车车
  */
 public class ServerListPing {
 
-    private static final ServerListPing slp1 = new ServerListPing();
-
-    private static InetSocketAddress host;
+    private InetSocketAddress host;
     private int timeout = 7000;
-    private static String Max;
-    private static String protocol;
-    private static String online;
-    private static String servername;
-    public static String Motd;
-    public static String getMax() {
-        return Max;
-    }
-
-    private void setMax(String max) {
-        Max = max;
-    }
-
-    public static String getOnline() {
-        return online;
-    }
-
-    private void setOnline(String online) {
-        ServerListPing.online = online;
-    }
-
-    public static String getProtocol() {
-        return protocol;
-    }
-
-    private void setProtocol(String protocol) {
-        ServerListPing.protocol = protocol;
-    }
-
-    public static String getServername() {
-        return servername;
-    }
-
-    private void setServerName(String servername) {
-        ServerListPing.servername = servername;
-    }
-
-    public static String getMotd() {
-        return Motd;
-    }
-
-    private void setMotd(String motd) {
-        Motd = motd;
-    }
-
     public void setAddress(InetSocketAddress host) {
         this.host = host;
     }
 
     public InetSocketAddress getAddress() {
-        return this.host;
+        return host;
     }
 
     public void setTimeout(int timeout) {
@@ -210,11 +164,17 @@ public class ServerListPing {
             Motd.append(text.get("text"));
         }
 
-        slp1.setMax(players.get("max").toString());
-        slp1.setOnline(players.get("online").toString());
-        slp1.setProtocol(version.get("protocol").toString());
-        slp1.setServerName(version.get("name").toString());
-        slp1.setMotd(Motd.toString());
+        if (object.get("favicon").toString() != null) {
+            ServerListPing.Response.setIcon(object.get("favicon").toString());
+        } else {
+            ServerListPing.Response.setIcon("");
+        }
+
+        ServerListPing.Response.setPlayerMax(players.get("max").toString());
+        ServerListPing.Response.setPlayerOnline(players.get("online").toString());
+        ServerListPing.Response.setProtocol(version.get("protocol").toString());
+        ServerListPing.Response.setVersion(version.get("name").toString());
+        ServerListPing.Response.setMOTD(Motd.toString());
 
         dataOutputStream.close();
         outputStream.close();
@@ -223,7 +183,117 @@ public class ServerListPing {
         socket.close();
     }
 
+    /**
+     * 获取请求结果
+     */
+    public static class Response {
+
+        private static String player_max;
+        private static String protocol;
+        private static String player_online;
+        private static String version;
+        private static String motd;
+        private static String favicon;
+        public static String getPlayerMax() {
+            return Response.player_max;
+        }
+
+        public static String getPlayerOnline() {
+            return Response.player_online;
+        }
+
+        public static String getProtocol() {
+            return Response.protocol;
+        }
+
+        public static String getVersion() {
+            return Response.version;
+        }
+
+        public static String getMOTD() {
+            return Response.motd;
+        }
+
+        public static String getIcon() {
+            return favicon;
+        }
+
+        // 内部变量 设置结果
+        private static void setPlayerMax(String player_max) {
+            Response.player_max = player_max;
+        }
+
+        private static void setPlayerOnline(String player_online) {
+            Response.player_online = player_online;
+        }
+
+        private static void setProtocol(String protocol) {
+            Response.protocol = protocol;
+        }
+
+        private static void setVersion(String version) {
+            Response.version = version;
+        }
+
+        private static void setMOTD(String motd) {
+            Response.motd = motd;
+        }
+
+        private static void setIcon(String favicon) {
+            Response.favicon = favicon;
+        }
+
+    }
+
 }
+```
+
+Maven部分
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>moe.xmcn.example</groupId>
+    <artifactId>ServerListPing</artifactId>
+    <version>1.0</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <repositories>
+        
+        <repository>
+            <id>maven</id>
+            <url>https://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+        
+    </repositories>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>2.0.9</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
 ```
 
 ## 调用
