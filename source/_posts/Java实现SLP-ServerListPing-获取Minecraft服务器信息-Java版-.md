@@ -315,4 +315,24 @@ slp.setAddress(isa);
 slp.fetchData();
 ```
 
-得到数据之后会自动解析，调static方法获得数据，具体自己翻吧，懒得打了
+得到数据之后会自动解析，调ServerListPing.Response类获取信息
+
+```java
+// 获得服务器版本
+ServerListPing.Response.getVersion();
+
+// 获得服务器协议版本
+ServerListPing.Response.getProtocol();
+
+// 获得服务器在线玩家数量
+ServerListPing.Response.getPlayerOnline();
+
+// 获得服务器最大玩家数量
+ServerListPing.Response.getPlayerMax();
+
+// 获得服务器MOTD
+ServerListPing.Response.getMOTD();
+
+// 获得服务器图标
+ServerListPing.Response.getIcon();
+```
