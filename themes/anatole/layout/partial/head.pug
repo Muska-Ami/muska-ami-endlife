@@ -1,6 +1,15 @@
 meta(charset="utf-8")
 meta(name="X-UA-Compatible", content="IE=edge")
 meta(name="author", content= theme.author)
+<!-- Global site tag (gtag.js) - Google Analytics -->
+script(async src=url_for("https://www.googletagmanager.com/gtag/js?id=G-4Y75G9Q6MC"))
+script
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4Y75G9Q6MC');
+
 title
     block site_title
         = config.title
