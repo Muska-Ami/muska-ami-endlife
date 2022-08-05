@@ -23,5 +23,5 @@ gentie:
 # Waline comments https://waline.js.org
 waline:
   enable: true
-  serverurl: https://comments.xmnetwork.ga
+  serverurl: https://comment.xmnetwork.ga
   placeholder: 说点什么......
