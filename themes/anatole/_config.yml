@@ -5,7 +5,7 @@ sidebar_title: 夏沫花火のBLOG
 description: Keep doing,Keep loving.
 avatar: https://fs.lolimapis.ml/QQUserAvatar/?qc=2549619802
 logo:
-  url: https://img.xmdisk.ga/api?path=/blog/avatar.jpg&raw=true
+  url: https://img.xmnetwork.ga/api?path=/blog/avatar.jpg&raw=true
   title: 'Here is my Blog!'
 icon: /images/favicon.png
 
@@ -20,14 +20,8 @@ barlink:
 duoshuo: 
 disqus: 
 gentie: 
-# Valine comments https://valine.js.org
-valine:
-  enable: false
-  appid: zrC2pgksyDeBk5vt6nBaeF0S-MdYXbMMI
-  appkey: e2sifj5sJfquOUS60xEaHkfM
-  placeholder: 说点什么......
-  serverurl: https://zrc2pgks.api.lncldglobal.com
+# Waline comments https://waline.js.org
 waline:
   enable: true
-  serverurl: https://comments.xmdisk.ga
+  serverurl: https://comments.xmnetwork.ga
   placeholder: 说点什么......
