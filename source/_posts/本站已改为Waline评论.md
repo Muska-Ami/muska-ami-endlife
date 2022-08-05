@@ -7,4 +7,4 @@ tags: 公告
 注册：[点我前往](https://comment.xmnetwork.ga/ui/register)
 测试界面：[点我前往](https://comment.xmnetwork.ga/)
 ### 效果
-![ExampleImage](https://media.xmnetwork.ga/blog/Waline_Demo.png)
+![ExampleImage](https://media.xmnetwork.ga/api?path=/blog/Waline_Demo.png&raw=true)
