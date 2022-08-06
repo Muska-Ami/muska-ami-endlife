@@ -1,3 +1,5 @@
+## Yandex Webmaster Tools
+[https://webmaster.yandex.com/](https://webmaster.yandex.com/)
 ## Bing Webmaster Tools
 [https://www.bing.com/webmasters/](https://www.bing.com/webmasters)
 ## Google Analytics
