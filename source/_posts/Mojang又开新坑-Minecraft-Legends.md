@@ -1,5 +1,5 @@
 ---
-title: 'Mojiang又开新坑——Minecraft Legends'
+title: 'Mojang又开新坑——Minecraft Legends'
 date: 2022-07-10 22:49:25
 tags: 介绍
 ---
