@@ -1,3 +1,5 @@
+## Bing Webmaster Tools
+[https://www.bing.com/webmasters/](https://www.bing.com/webmasters)
 ## Google Analytics
 [https://analytics.google.com/](https://analytics.google.com/)
 ## Waline
