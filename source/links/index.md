@@ -3,6 +3,9 @@
 本站的一些友链，欢迎来交换友链OVO  
 交换友链请发送<font color="red">邮件</font>到<a href="mailto:xiamohuahuo-cn@qq.com">xiamohuahuo-cn@qq.com</a>
 
+### Daiyangcheng's Blog
+[https://www.daiyangcheng.cn/](https://www.daiyangcheng.cn/)
+
 ### Gayの小冰
 [https://xiaobing.gay/](https://xiaobing.gay/)
 
@@ -10,7 +13,7 @@
 [https://www.shanrenyi.top/](https://www.shanrenyi.top/)
 
 ### 俗人博客
-[https://blog.c4dy.cn/](https://blog.c4dy.cn/)
+[http://blog.c4dy.cn/](http://blog.c4dy.cn/)
 
 ### 阿付の小破站
 [https://afqaq.com/](https://afqaq.com/)
