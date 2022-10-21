@@ -87,7 +87,7 @@ card:
 
 # footer info
 footer:
-    since: 20xx
+    since: 2021
     # Customize the server domain name ICP
     ICP:
         enable: false
