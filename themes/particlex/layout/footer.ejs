@@ -6,11 +6,16 @@
             <span class="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
-            @<%= config.author %>
+            <%= config.author %>
         </div>
         <div></div>
         <div>Powered by <a href="https://hexo.io/">Hexo</a> | Theme <a
                 href="https://github.com/argvchs/hexo-theme-particlex">ParticleX</a> (已修改)</div>
+        <% if (theme.footer.MoeICP.enable) { %>
+        <div>
+            <img src="<%= theme.footer.MoeICP.icon %>" style="height: 12px"><a href="https://icp.gov.moe/?keyword=<%= theme.footer.MoeICP.code %>">萌ICP备<%= theme.footer.MoeICP.code %>号</a>
+        </div>
+        <% } %>
         <% if (theme.footer.ICP.enable) { %>
         <div>
             备案号：

@@ -88,6 +88,11 @@ card:
 # footer info
 footer:
     since: 2021
+    # MoeICP
+    MoeICP:
+        enable: true
+        code: 20220860
+        icon: /images/moeicpico64.png
     # Customize the server domain name ICP
     ICP:
         enable: false
