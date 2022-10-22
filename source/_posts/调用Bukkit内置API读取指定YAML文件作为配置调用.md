@@ -1,6 +1,7 @@
 ---
 title: 调用Bukkit内置API读取指定YAML文件作为配置调用
 date: 2022-09-04 15:18:00
+tag: 教程
 ---
 有时候想要读取自定义文件作为配置文件用，但是Bukkit没有内置，只有一个`Plugin.getConfig()`方法获取`config.yml`作为配置文件，就很烦
 但是Bukkit提供了`FileConfiguration`和`YamlConfiguration`方法，可以自己调接口
