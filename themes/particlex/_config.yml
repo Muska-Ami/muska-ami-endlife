@@ -75,6 +75,10 @@ card:
             name: earth-americas
             theme: solid
             link: https://www.mcbbs.net/?2829459
+        qq:
+            name: qq
+            theme: brands
+            link: http://wpa.qq.com/msgrd?v=3&uin=2549619802&site=qq&menu=yes
         # Example:
         # <name>:
         #    name: <icon-name>
@@ -140,6 +144,6 @@ waline:
     requiredMeta: # Set required meta field, e.g.: [nick] | [nick, mail]
         - nick
     lang: zh-CN # Language, available values: en-US, zh-CN, zh-TW, pt-BR, ru-RU, jp-JP
-    wordLimit: 0 # Word limit, no limit when setting to 0
+    wordLimit: 2 # Word limit, no limit when setting to 0
     login: enable # Whether enable login, can choose from 'enable', 'disable' and 'force'
     pageSize: 10 # Comment per page
