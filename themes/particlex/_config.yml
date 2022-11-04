@@ -125,7 +125,7 @@ gitalk:
 # https://github.com/walinejs/waline
 waline:
     enable: true
-    serverURL: https://comment.xmnetwork.ga # Waline server address url, you should set this to your own link
+    serverURL: https://comment-service.huahuo-cn.tk # Waline server address url, you should set this to your own link
     locale: # Locale: https://waline.js.org/guide/client/i18n.html#locale-option
         {}
         # Example:
