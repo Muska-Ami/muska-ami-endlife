@@ -1,3 +1,8 @@
+---
+title: '在Termux上安装bore'
+date: 2022-11-06 14:50:00
+tag: 教程
+---
 最近发现了bore这样一个项目:
 ![bore](https://resource.huahuo-cn.tk/media/blog/bore-inc.jpg)
 其实就是类似`frp`的NAT打洞工具，但是对比了一下，bore更适合cli开发
