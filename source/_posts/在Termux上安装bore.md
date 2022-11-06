@@ -7,14 +7,18 @@ tag: 教程
 ![bore](https://resource.huahuo-cn.tk/media/blog/bore-inc.jpg)
 其实就是类似`frp`的NAT打洞工具，但是对比了一下，bore更适合cli开发
 于是就打算在Termux上安装
+
 ## Termux-Tools一键安装
+
 ```bash
 pkg install bore
 ```
 然后执行命令`bore`，应该会看到如下输出
 ![bore-ret](https://resource.huahuo-cn.tk/media/blog/bore-ret.jpg)
 这样代表你安装成功了
+
 ## 开启bore隧道
+
 运行`local`命令，启动bore隧道
 ```bash
 bore local <本地端口> --to bore.pub
@@ -29,7 +33,9 @@ bore local <本地端口> --to <远程服务器地址>
 2022-11-06T06:42:17.773908Z  INFO bore_cli::client: connected to server remote_port=38309
 2022-11-06T06:42:17.774004Z  INFO bore_cli::client: listening at bore.pub:38309
 ```
+
 ## 自建bore服务器
+
 运行下面的命令即可启动bore服务器
 ```bash
 bore server
