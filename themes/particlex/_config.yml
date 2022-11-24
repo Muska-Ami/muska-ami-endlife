@@ -28,10 +28,6 @@ menu:
         name: house
         theme: solid
         src: /
-    #about:
-        #name: id-card
-        #theme: solid
-        #src: /about
     归档:
         name: box-archive
         theme: solid
@@ -40,6 +36,10 @@ menu:
         name: tags
         theme: solid
         src: /tags
+    关于:
+        name: id-card
+        theme: solid
+        src: /about
     友情链接:
         name: user-group
         theme: solid
