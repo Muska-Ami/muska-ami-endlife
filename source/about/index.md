@@ -3,11 +3,11 @@ title: 关于
 ---
 # 关于XiaMoHuaHuo_CN's Blog
 
-Copyright © 2021 - <script>document.write(date(Date.now(), "YYYY"));</script> XiaMoHuaHuo_CN
+Copyright © 2021 - <script>document.write(new Date().getFullYear());</script> XiaMoHuaHuo_CN
 
 Powered by [Hexo](https://hexo.io)
 Theme [ParticleX](https://github.com/argvchs/hexo-theme-particlex)
-<img src="/images/moeicpico64.png" style="height: 12px">萌ICP备[20220860](https://icp.gov.moe/?keyword=20220860)号
+萌ICP备[20220860](https://icp.gov.moe/?keyword=20220860)号
 
 [GitHub](https://github.com)提供 站点储存
 [CloudFlare](https://cloudflare.com)提供 网络服务 支持
