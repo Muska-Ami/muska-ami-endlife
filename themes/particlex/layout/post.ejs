@@ -60,7 +60,7 @@
     <script>
     function copyUrl(){
         var object = document.querySelector(".copyUrl");
-        var clipBoardContent = "<%= config.url %>/<%= page.path %>";
+        var clipBoardContent = encodeURI("<%= config.url %>/<%= page.path %>");
         object.select();
         navigator.clipboard.writeText(clipBoardContent);
         object.value = "复制成功";
