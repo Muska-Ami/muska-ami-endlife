@@ -1,43 +1,46 @@
 <% var rootlink = config.root; %>
+<div id="post-header-background" style="background-image: url(<%- theme.home_background %>)"></div>
 <div class="article">
-    <div>
-        <h1><%= titlecase(page.title) %> </h1>
-    </div>
-    <div class="info">
-        <span class="date">
-            <span class="icon">
-                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
-            </span>
-            <%= date(page.date, "YYYY/M/D") %>
-        </span>
-        <% if (page.categories && page.categories.data.length != 0) { %>
-        <span class="category">
-            <a href="<%- rootlink %><%- page.categories.data[0].path %>">
+    <div class="infblock">
+        <div>
+            <h1><%= titlecase(page.title) %> </h1>
+        </div>
+        <div class="info">
+            <span class="date">
                 <span class="icon">
-                    <svg class="fa-icon"><use xlink:href="#bookmark-solid"></use></svg>
+                    <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
                 </span>
-                <%= page.categories.data[0].name %>
-            </a>
-        </span>
-        <% } %>
-        <% if (page.tags && page.tags.data.length != 0) { %>
-        <span class="tags">
-            <span class="icon">
-                <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+                <%= date(page.date, "YYYY/M/D") %>
             </span>
-            <% page.tags.data.forEach(function(data) {%>
-            <span class="tag">
-                <% 
-                    var color = ["color: #ffa2c4", "color: #00bcd4", "color: #03a9f4", "color: #00a596", "color: #ff7d73"];
-                    var num = Math.floor(Math.random() * color.length);
-                %>
-                <a href="<%- rootlink %><%- data.path %>" style="<%- color[num] %>">
-                    <%= data.name %>
+            <% if (page.categories && page.categories.data.length != 0) { %>
+            <span class="category">
+                <a href="<%- rootlink %><%- page.categories.data[0].path %>">
+                    <span class="icon">
+                        <svg class="fa-icon"><use xlink:href="#bookmark-solid"></use></svg>
+                    </span>
+                    <%= page.categories.data[0].name %>
                 </a>
             </span>
-            <% }); %>
-        </span>
-        <% } %>
+            <% } %>
+            <% if (page.tags && page.tags.data.length != 0) { %>
+            <span class="tags">
+                <span class="icon">
+                    <svg class="fa-icon"><use xlink:href="#tags-solid"></use></svg>
+                </span>
+                <% page.tags.data.forEach(function(data) {%>
+                <span class="tag">
+                    <% 
+                        var color = ["color: #ffa2c4", "color: #00bcd4", "color: #03a9f4", "color: #00a596", "color: #ff7d73"];
+                        var num = Math.floor(Math.random() * color.length);
+                    %>
+                    <a href="<%- rootlink %><%- data.path %>" style="<%- color[num] %>">
+                        <%= data.name %>
+                    </a>
+                </span>
+               <% }); %>
+            </span>
+            <% } %>
+        </div>
     </div>
     <div class="content" v-pre>
         <%- page.content %>
@@ -51,7 +54,7 @@
     <% if (theme.postbottom.enable) { %>
     <div class="pb-license">
         <p class="url">
-            文章地址：<a href="<%= config.url %>/<%= page.path %>"><%= config.url %>/<%= page.path %></a>
+            文章地址：<a href="<%= encodeURI(config.url + "/" + page.path) %>"><%= config.url %>/<%= page.path %></a>
         </p>
         <span><%= theme.postbottom.text %></span><input type="button" class="copyUrl" onClick='copyUrl()' value="复制地址"><br>
         <span>详情请见：<a href="<%= theme.postbottom.license.url %>"><%= theme.postbottom.license.name %></a></span>
