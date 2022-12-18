@@ -3,8 +3,10 @@
 # Favicon
 favicon: /images/favicon.png
 
+title: XiaMoHuaHuo_CN
+
 # avatar image url
-head_img: https://fs.lolimapis.ml/QQUserAvatar/?qc=2549619802
+head_img: https://q.qlogo.cn/g?b=qq&nk=2549619802&s=640
 
 # home page head info block
 head_block_enable: true
@@ -13,7 +15,7 @@ head_block_enable: true
 jinrishici: true
 
 # home page head background style
-home_background: https://api-view.shanrenyi.top/cute
+home_background: https://api.ixiaowai.cn/api/api.php
 
 # WARNING! vf_fonts (variable fonts) feature is EXPERIMENTAL
 # MDN: https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
@@ -147,3 +149,10 @@ waline:
     wordLimit: 0 # Word limit, no limit when setting to 0
     login: enable # Whether enable login, can choose from 'enable', 'disable' and 'force'
     pageSize: 10 # Comment per page
+
+postbottom:
+    enable: true
+    text: 本站除特殊声明，均采用CC-BY-4.0协议
+    license:
+        name: CC-BY-SA-4.0
+        url: https://creativecommons.org/licenses/by-sa/4.0/

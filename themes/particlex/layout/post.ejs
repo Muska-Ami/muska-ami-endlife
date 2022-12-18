@@ -48,6 +48,26 @@
         <div id="gitalk-container"></div>
     </div>
     <% } %>
+    <% if (theme.postbottom.enable) { %>
+    <div class="pb-license">
+        <p class="url">
+            文章地址：<a href="<%= config.url %>/<%= page.path %>"><%= config.url %>/<%= page.path %></a>
+        </p>
+        <span><%= theme.postbottom.text %></span><input type="button" class="copyUrl" onClick='copyUrl()' value="复制地址"><br>
+        <span>详情请见：<a href="<%= theme.postbottom.license.url %>"><%= theme.postbottom.license.name %></a></span>
+    </div>
+
+    <script>
+    function copyUrl(){
+        var object = document.querySelector(".copyUrl");
+        var clipBoardContent = "<%= config.url %>/<%= page.path %>";
+        object.select();
+        navigator.clipboard.writeText(clipBoardContent);
+        object.value = "复制成功";
+        setTimeout(function () { object.value = "复制地址" }, 1000);
+    }
+    </script>
+    <% } %>
     <% if (theme.waline.enable) { %>
     <link rel="stylesheet" href="https://cdn.staticfile.org/waline/2.9.1/waline.min.css" />
     <div id="comment">

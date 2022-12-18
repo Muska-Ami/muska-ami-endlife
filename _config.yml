@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: HuaHuo_CN's Blog
-subtitle: '夏沫花火のBLOG'
+title: XiaMoHuaHuo_CN's Blog
+subtitle: '这里是XiaMoHuaHuo_CN的BLOG'
 description: 'Hello！你好！这里是夏沫花火zzz的小站！'
-keywords: 
+keywords: "夏沫花火zzz,XiaMoHuaHuo_CN,XiaMoHuaHuo-CN,XMCN,XM,HuaHuo_CN,XiaMoHuaHuo_CN's Blog,HuaHuo_CN's Blog"
 author: XiaMoHuaHuo_CN
 language: zh-CN
 timezone: ''
@@ -103,3 +103,9 @@ theme: particlex
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# RSS
+feed:
+    type: atom
+    path: atom.xml
+    limit: false

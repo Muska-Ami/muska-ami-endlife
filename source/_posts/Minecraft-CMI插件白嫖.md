@@ -1,7 +1,7 @@
 ---
 title: 'Minecraft CMI插件白嫖'
 date: 2021-07-03 16:12:53
-tags: MineCraft
+tags: Minecraft
 ---
 <h1>免责声明</h1>
 <p>本贴提供的资源来自第三方;<br/>

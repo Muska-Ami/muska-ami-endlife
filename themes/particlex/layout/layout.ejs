@@ -41,6 +41,9 @@
         <% } else { %>
         <link rel="stylesheet" href="<%- rootlink %>css/fonts.min.css">
         <link rel="stylesheet" href="<%- rootlink %>css/particlex.css">
+            <% if (layout == "post") { %>
+            <link rel="stylesheet" href="<%- rootlink %>css/license.css">
+            <% } %>
         <% } %>
         <script src="https://cdn.staticfile.org/vue/3.2.33/vue.global.prod.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->

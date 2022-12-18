@@ -1,7 +1,7 @@
 ---
 title: '[原创][MCBBS]从零编写自己的开服批处理--轻松开服'
 date: 2021-03-27 17:35:36
-tag: MineCraft
+tag: Minecraft
 ---
 <img src="https://z3.ax1x.com/2021/04/02/cmyqG4.png" /><br />
 <h1>前言</h1>

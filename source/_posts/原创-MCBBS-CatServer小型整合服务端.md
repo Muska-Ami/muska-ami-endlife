@@ -1,7 +1,7 @@
 ---
 title: '[原创][MCBBS]CatServer小型整合服务端'
 date: 2021-03-27 18:28:10
-tag: MineCraft
+tag: Minecraft
 ---
 <div class="https://www.mcbbs.net/typeoption">
 <table summary="https://www.mcbbs.net/分类信息" cellpadding="0" cellspacing="0" class="https://www.mcbbs.net/cgtl mbm">
