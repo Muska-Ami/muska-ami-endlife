@@ -25,7 +25,7 @@
     z-index: -1;
     top: 0;
     left: 0;
-    height: 50%;
+    height: 400px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -33,16 +33,18 @@
     background-attachment: fixed;
 }
 .article {
-    transform: translate(0, -2%);
+    transform: translate(0, -20px);
 }
 .article .infblock {
     margin: 30px auto;
     background-color: rgba(255, 255, 255, 0.514);
     padding: 10px;
     border-radius: 10px;
+    height: 150px;
 }
 .article .content {
-    margin-top: 90px;
+    margin-top: 130px;
+    
 }
 @media (max-width: 900px) {
     .article .infblock h1 {
