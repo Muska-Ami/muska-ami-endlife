@@ -1,7 +1,10 @@
 ---
 title: 关于 风雨阁Storm Pavilion 这个项目
 date: 2022-12-18 16:37:17
-tags: SPCraftMC
+tags:
+  - SPCraftMC
+  - Minecraft
+  - 日记
 ---
 时光一去不复返，距离风雨阁Storm Pavilion | Minecraft服务器开服已经快2年了，是时候写一篇文章表达自己对这个项目的态度了。
 
