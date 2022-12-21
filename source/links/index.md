@@ -3,6 +3,9 @@
 本站的一些友链，欢迎来交换友链OVO  
 交换友链请发送<font color="red">邮件</font>到<a href="mailto:xiamohuahuo-cn@qq.com">xiamohuahuo-cn@qq.com</a>
 
+### 追风者论坛
+[https://bbs.windmc.top/](https://bbs.windmc.top/)
+
 ### 随风-随笔
 [https://suifeng.world/](https://suifeng.world/)
 
