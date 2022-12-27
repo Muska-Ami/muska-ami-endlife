@@ -3,6 +3,9 @@
 本站的一些友链，欢迎来交换友链OVO  
 交换友链请发送<font color="red">邮件</font>到<a href="mailto:xiamohuahuo-cn@qq.com">xiamohuahuo-cn@qq.com</a>
 
+### XM的小窝
+[https://kanokano.cn/](https://kanokano.cn/)
+
 ### Xhofe's Blog
 [https://nn.ci/](https://nn.ci/)
 
