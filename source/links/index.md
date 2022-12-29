@@ -28,7 +28,7 @@
     <div class="dv2">
         <a href="https://bbs.windmc.top/">
             <h4>追风者论坛</h4>
-            <p>晚来天欲雪，能饮一杯无？</p>
+            <p>追风者论坛 - 公益论坛</p>
         </a>
     </div>
 </div>
