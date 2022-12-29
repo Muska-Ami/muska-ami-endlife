@@ -4,6 +4,16 @@
 交换友链请发送<font color="red">邮件</font>到<a href="mailto:xiamohuahuo-cn@qq.com">xiamohuahuo-cn@qq.com</a>
 
 <div class="friends">
+    <img src="https://www.meng.me/images/avatar.png">
+    <div class="dv2">
+        <a href="https://www.meng.me/">
+            <h4>Meng</h4>
+            <p>Welcome to mengBlog</p>
+        </a>
+    </div>
+</div>
+
+<div class="friends">
     <img src="https://cravatar.cn/avatar/c56b6f5018fec0dfe27cf32f7324c5b4?s=400">
     <div class="dv2">
         <a href="https://kanokano.cn/">
