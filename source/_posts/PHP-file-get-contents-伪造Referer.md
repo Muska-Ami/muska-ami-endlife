@@ -1,7 +1,7 @@
 ---
 title: PHP file_get_contents() 伪造Referer
 date: 2022-12-29 10:33:19
-tags:
+tags: ["教程", "笔记"]
 ---
 方法如下
 添加请求的Referer地址
