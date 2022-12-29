@@ -33,11 +33,11 @@ menu:
     归档:
         name: box-archive
         theme: solid
-        src: /archives
+        src: /archives/
     标签:
         name: tags
         theme: solid
-        src: /tags
+        src: /tags/
     关于:
         name: id-card
         theme: solid
@@ -45,7 +45,7 @@ menu:
     友情链接:
         name: user-group
         theme: solid
-        src: /links
+        src: /links/
     # Example:
     # <name>:
     #     name: <icon-name>

@@ -2,14 +2,14 @@
     var layout = "post";
     if (is_home())
         layout = "index";
+    else if (is_tag() || page.title == "tags")
+        layout = "tags";
     else if (is_page())
         layout = "page";
     else if (is_post())
         layout = "post";
     else if (is_category() || page.title == "categories")
         layout = "categories";
-    else if (is_tag() || page.title == "tags")
-        layout = "tags";
     else if (is_archive() || is_year() || is_month())
         layout = "archives";
     var pageTitle = "";
