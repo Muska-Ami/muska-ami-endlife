@@ -54,11 +54,11 @@
 </div>
 
 <div class="friends">
-    <!--<img src="">-->
+    <img src="https://cravatar.cn/avatar/5417982dfeabcb9a22bfc582c88a4759?s=640">
     <div class="dv2">
         <a href="https://www.daiyangcheng.cn/">
             <h4>Daiyangcheng's Blog</h4>
-            <!--<p></p>-->
+            <p>莫得描述</p>
         </a>
     </div>
 </div>
