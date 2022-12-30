@@ -6,6 +6,16 @@
 <div class="friends">
     <img src="https://hk47.cc/wp-content/uploads/2021/11/%E6%88%91%E7%9A%84%E5%A4%B4%E5%83%8F.jpg">
     <div class="dv2">
+        <a href="https://www.txnb.vip/">
+            <h4>天宇网络论坛</h4>
+            <p>天下出品 必属精品</p>
+        </a>
+    </div>
+</div>
+
+<div class="friends">
+    <img src="https://hk47.cc/wp-content/uploads/2021/11/%E6%88%91%E7%9A%84%E5%A4%B4%E5%83%8F.jpg">
+    <div class="dv2">
         <a href="https://hk47.cc/">
             <h4>天宇网络博客</h4>
             <p>小小世界-容纳百川</p>
