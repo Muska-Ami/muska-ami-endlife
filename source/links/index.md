@@ -10,6 +10,16 @@
     - 头像: https://huahuo-cn.tk/images/favicon.png
 
 <div class="friends">
+    <img src="https://q2.qlogo.cn/headimg_dl?dst_uin=395667235&spec=640">
+    <div class="dv2">
+        <a href="https://wuzhuoyiblog404.cf/">
+            <h4>Wuzhu</h4>
+            <p>Wuzhu的博客</p>
+        </a>
+    </div>
+</div>
+
+<div class="friends">
     <img src="https://hk47.cc/wp-content/uploads/2021/11/%E6%88%91%E7%9A%84%E5%A4%B4%E5%83%8F.jpg">
     <div class="dv2">
         <a href="https://www.txnb.vip/">
