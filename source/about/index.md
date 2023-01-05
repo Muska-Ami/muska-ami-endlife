@@ -10,7 +10,7 @@ Theme [ParticleX](https://github.com/argvchs/hexo-theme-particlex)
 萌ICP备[20220860](https://icp.gov.moe/?keyword=20220860)号
 
 [GitHub](https://github.com)提供 站点储存
-[CloudFlare](https://cloudflare.com)提供 网络服务 支持
+[Cloudflare](https://cloudflare.com)提供 网络服务 支持
 [Vercel](https://vercel.com) ＆ [Netlify](https://netlify.com)提供 构建 & 部署
 [OneDrive](https://onedrive.live.com)提供 文件服务
 
