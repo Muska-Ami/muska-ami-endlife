@@ -14,7 +14,7 @@
     <div class="dv2">
         <a href="https://wuzhuoyiblog404.cf/">
             <h4>Wuzhu</h4>
-            <p>Wuzhu的博客</p>
+            <p>Welcome To Wublog™</p>
         </a>
     </div>
 </div>
