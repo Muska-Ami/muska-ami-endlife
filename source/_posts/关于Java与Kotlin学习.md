@@ -21,6 +21,7 @@ Java入坑也有1年多了，Kotlin就短些，几个月吧，而且中途退坑
 正真正让我开始写Java项目的是[MiraiMC](https://github.com/DreamVoid/MiraiMC)这个项目，由于它可以通过Minecraft服务器运行，所以我对它非常的看重，并且看到它拥有较为齐全的API(也是最吸引我的)，于是便开始了我的Java之路。
 
 最开始写的一团糟，然后就是不断的造Bug，顺便吐槽自己的项目[CatSero](https://github.com/XiaMoHuaHuo-CN/CatSero)，现在去看v1的代码感觉跟shit一样(到v2已经重写了4次了)。也正是在这个过程中，我入坑了Kotlin这门语言。
+
 让我入坑Kotlin的，一方面是它的便捷性，比如下面这段Java代码:
 ```java
 String s = "helloworld";
