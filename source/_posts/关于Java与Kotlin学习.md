@@ -1,7 +1,7 @@
 ---
 title: '关于Java与Kotlin的学习'
-> date: 2023-01-07 01:24:29
-tag: Minecraft
+date: 2023-01-07 01:24:29
+tag: 学习
 ---
 入坑Java和Kotlin一来，弯路没少走，觉得该写篇感想了。
 
