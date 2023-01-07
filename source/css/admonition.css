@@ -71,7 +71,3 @@ p.admonition-title {
 .admonition>:last-child {
   margin-bottom: 0 !important;
 }
-
-.content p {
-  text-indent: 2em;
-}
