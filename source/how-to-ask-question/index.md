@@ -61,6 +61,8 @@ RTDA(RTFA)，即 **Read The Damn Article(Read The Fucking Article)** ，中文�
 
 STFW，见上文。
 
+BDFS，即 **BDFS Baidu First Search** ，中文译名为 "先用百度搜索"。
+
 ### 当你不明白回应
 
 如果你看不懂回应，别立刻要求对方解释。像你以前试着自己解决问题时那样（利用 **手册，FAQ，网络，身边的高手** ），先试着去搞懂他的回应。如果你真的需要对方解释，记得表现出你已经从中学到了点什么。
