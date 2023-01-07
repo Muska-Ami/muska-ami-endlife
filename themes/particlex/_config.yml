@@ -153,7 +153,7 @@ waline:
 
 postbottom:
     enable: true
-    text: 本站除特殊声明，均采用CC-BY-4.0协议
+    text: 本站除特殊声明，均采用CC-BY-SA-4.0协议
     license:
         name: CC-BY-SA-4.0
         url: https://creativecommons.org/licenses/by-sa/4.0/
