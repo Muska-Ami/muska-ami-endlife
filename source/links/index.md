@@ -10,7 +10,7 @@
     - 头像: https://huahuo-cn.tk/images/favicon.png
 
 <div class="friends">
-    <img src="https://i0.wp.com/q2.qlogo.cn/headimg_dl?dst_uin=395667235&spec=640">
+    <img src="https://q2.qlogo.cn/headimg_dl?dst_uin=395667235&spec=640">
     <div class="dv2">
         <a href="https://wuzhuoyiblog404.cf/">
             <h4>Wuzhu</h4>
@@ -60,7 +60,7 @@
 </div>
 
 <div class="friends">
-    <img src="https://i0.wp.com/bbs.windmc.top/view/img/favicon.ico">
+    <img src="https://bbs.windmc.top/view/img/favicon.ico">
     <div class="dv2">
         <a href="https://bbs.windmc.top/">
             <h4>追风者论坛</h4>
