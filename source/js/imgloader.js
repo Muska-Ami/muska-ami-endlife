@@ -9,14 +9,18 @@ dom.forEach(
             item.src = loading_src
 
             iObj = new Image()
-            xhr = new XMLHttpRequest()
-            xhr.open("GET", origin_src, true)
-            xhr.responseType = "blob"
-            xhr.onload = function() {
-                item.src = URL.createObjectURL(this.response)
-                item.setAttribute('class', "complete", "thumbnails")
+            xhr0 = new XMLHttpRequest()
+            xhr0.onload = function() {
+                xhr = new XMLHttpRequest()
+                xhr.open("GET", origin_src, true)
+                xhr.responseType = "blob"
+                xhr.onload = function() {
+                    item.src = URL.createObjectURL(this.response)
+                    item.setAttribute('class', "complete", "thumbnails")
+                }
+                xhr.send()
             }
-            xhr.send()
+            xhr0.send()
         }
     }
 )
