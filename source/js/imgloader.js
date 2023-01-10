@@ -5,14 +5,15 @@ dom = document.querySelectorAll("img")
 dom.forEach(
     function (item) {
         origin_src = item.src
-        if (origin_src = "huahuo-cn.tk") {
+        if (origin_src.search("huahuo-cn.tk") != -1) {
             item.src = loading_src
 
-            iObj = new Image()
             xhr0 = new XMLHttpRequest()
+            xhr0.open("GET", origin_src, true)
             xhr0.onload = function() {
+                console.log(this.response)
                 xhr = new XMLHttpRequest()
-                xhr.open("GET", origin_src, true)
+                xhr.open("GET", this.response.URL, true)
                 xhr.responseType = "blob"
                 xhr.onload = function() {
                     item.src = URL.createObjectURL(this.response)
