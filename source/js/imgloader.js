@@ -13,10 +13,8 @@ dom.forEach(
             xhr.open("GET", origin_src, true)
             xhr.responseType = "blob"
             xhr.onload = function() {
-                if (this.status == 200) {
-                    item.src = URL.createObjectURL(this.response)
-                    item.setAttribute('class', "complete", "thumbnails")
-                }
+                item.src = URL.createObjectURL(this.response)
+                item.setAttribute('class', "complete", "thumbnails")
             }
             xhr.send()
         }
