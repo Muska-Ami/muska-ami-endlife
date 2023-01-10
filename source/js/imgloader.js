@@ -5,18 +5,20 @@ dom = document.querySelectorAll("img")
 dom.forEach(
     function (item) {
         origin_src = item.src
-        item.src = loading_src
+        if (origin_src = "huahuo-cn.tk") {
+            item.src = loading_src
 
-        iObj = new Image()
-        xhr = new XMLHttpRequest()
-        xhr.open("GET", origin_src, true)
-        xhr.responseType = "blob"
-        xhr.onload = function() {
-            if (this.status == 200) {
-                item.src = URL.createObjectURL(this.response)
-                item.setAttribute('class', "complete", "thumbnails")
+            iObj = new Image()
+            xhr = new XMLHttpRequest()
+            xhr.open("GET", origin_src, true)
+            xhr.responseType = "blob"
+            xhr.onload = function() {
+                if (this.status == 200) {
+                    item.src = URL.createObjectURL(this.response)
+                    item.setAttribute('class', "complete", "thumbnails")
+                }
             }
+            xhr.send()
         }
-        xhr.send()
     }
 )
