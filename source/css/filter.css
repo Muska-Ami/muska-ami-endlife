@@ -1,0 +1,10 @@
+.thumbnails {
+    filter: blur(9px);
+}
+.complete {
+    filter: none;
+    transition: 1s;
+}
+img {
+    width: 500px;
+}
