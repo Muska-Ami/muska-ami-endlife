@@ -33,19 +33,19 @@ curl -LO https://l.tmoe.me/2.awk
 awk -f 2.awk
 ```
 然后选择`<Tools>`
-![](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/termux-idea/Screenshot_20221106_150608_com.termux_edit_27848059930646.jpg)
+![](https://resource.huahuo-cn.tk/media/blog/termux-idea/Screenshot_20221106_150608_com.termux_edit_27848059930646.jpg)
 选择`GUI:图形界面`
-![](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/termux-idea/Screenshot_20221106_150617_com.termux_edit_27841159832209.jpg)
+![](https://resource.huahuo-cn.tk/media/blog/termux-idea/Screenshot_20221106_150617_com.termux_edit_27841159832209.jpg)
 选择`rootless_DE`，这样有没有root都可以跑
-![](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/termux-idea/Screenshot_20221106_150639_com.termux_edit_27833758068148.jpg)
+![](https://resource.huahuo-cn.tk/media/blog/termux-idea/Screenshot_20221106_150639_com.termux_edit_27833758068148.jpg)
 这里选择`xface`
-![](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/termux-idea/Screenshot_20221106_150642_com.termux_edit_27826552737941.jpg)
-![](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/termux-idea/Screenshot_20221106_150705_com.termux_edit_27819461874400.jpg)
+![](https://resource.huahuo-cn.tk/media/blog/termux-idea/Screenshot_20221106_150642_com.termux_edit_27826552737941.jpg)
+![](https://resource.huahuo-cn.tk/media/blog/termux-idea/Screenshot_20221106_150705_com.termux_edit_27819461874400.jpg)
 然后会提示是否安装推荐软件，这个安不安装不影响，取决于你自己
 等等安装完成，会提示启动的VNC，我这里用`<tiger>`
-![](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/termux-idea/Screenshot_20221106_150924_com.termux_edit_27812829290026.jpg)
+![](https://resource.huahuo-cn.tk/media/blog/termux-idea/Screenshot_20221106_150924_com.termux_edit_27812829290026.jpg)
 选择一个VNC端口，等会连接要用
-![](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/termux-idea/Screenshot_20221106_150931_com.termux_edit_27802792696798.jpg)
+![](https://resource.huahuo-cn.tk/media/blog/termux-idea/Screenshot_20221106_150931_com.termux_edit_27802792696798.jpg)
 至此部署完毕，全部选择最后一项退出tmoe脚本
 
 ## 安装IntelliJ IDEA
@@ -110,7 +110,7 @@ cat -n /root/.vnc/vnc.log
 ```
 打开安装的VNC客户端，添加VNC服务器，地址写`localhost:<刚才选的端口>`，连接
 显示像我这个图就成功了
-![](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/termux-idea/Screenshot_20221106_153428_com.realvnc.viewer.android.jpg)
+![](https://resource.huahuo-cn.tk/media/blog/termux-idea/Screenshot_20221106_153428_com.realvnc.viewer.android.jpg)
 这里直接移除插件就行
 打开刚才我们安装idea的位置，解压出的文件中有个`bin`文件夹，里面有个`idea.sh`，运行即可启动IntelliJ IDEA
-![](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/termux-idea/Screenshot_20221106_154249_com.realvnc.viewer.android.jpg)
+![](https://resource.huahuo-cn.tk/media/blog/termux-idea/Screenshot_20221106_154249_com.realvnc.viewer.android.jpg)
