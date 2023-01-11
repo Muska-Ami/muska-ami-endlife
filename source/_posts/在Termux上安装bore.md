@@ -4,7 +4,7 @@ date: 2022-11-06 14:50:00
 tag: 教程
 ---
 最近发现了bore这样一个项目:
-![bore](https://resource.huahuo-cn.tk/media/blog/bore-inc.jpg)
+![bore](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/bore-inc.jpg)
 其实就是类似`frp`的NAT打洞工具，但是对比了一下，bore更适合cli开发
 于是就打算在Termux上安装
 
@@ -14,7 +14,7 @@ tag: 教程
 pkg install bore
 ```
 然后执行命令`bore`，应该会看到如下输出
-![bore-ret](https://resource.huahuo-cn.tk/media/blog/bore-ret.jpg)
+![bore-ret](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/bore-ret.jpg)
 这样代表你安装成功了
 
 ## 开启bore隧道

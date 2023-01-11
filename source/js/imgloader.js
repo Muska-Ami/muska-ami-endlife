@@ -18,28 +18,30 @@ dom.forEach(
         item.src = timg[0];
         item.setAttribute('class', "thumbnails");
 
-        console.log("创建XHR请求");
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", origin_src[key], true);
-        xhr.responseType = "blob";
-        xhr.send();
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState == 4) {
-                if (xhr.status == 200 || xhr.status == 307) {
-                    try {
-                        var bloburl = URL.createObjectURL(this.response);
-                        item.src = bloburl;
-                        console.log(bloburl);
+        if (origin_src[key].search("media-fs.huahuo-cn.tk") != -1) {
+            console.log("创建XHR请求");
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", origin_src[key], true);
+            xhr.responseType = "blob";
+            xhr.send();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4) {
+                    if (xhr.status == 200) {
+                        try {
+                            var bloburl = URL.createObjectURL(this.response);
+                            item.src = bloburl;
+                            console.log(bloburl);
+                            item.setAttribute('class', "complete", "thumbnails");
+                        } catch (e) {
+                            item.src = origin_src[key];
+                            item.setAttribute('class', "complete", "thumbnails");
+                            throw e;
+                        }
+                    } else {
+                        console.log("请求失败，响应码：" + xhr.status);
+                        item.src = timg[1];
                         item.setAttribute('class', "complete", "thumbnails");
-                    } catch (e) {
-                        item.src = origin_src[key];
-                        item.setAttribute('class', "complete", "thumbnails");
-                        throw e;
                     }
-                } else {
-                    console.log("请求失败，响应码：" + xhr.status);
-                    item.src = timg[1];
-                    item.setAttribute('class', "complete", "thumbnails");
                 }
             }
         }

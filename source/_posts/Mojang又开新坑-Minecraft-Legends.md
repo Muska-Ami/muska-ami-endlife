@@ -5,7 +5,7 @@ tags: 介绍
 ---
 ## 宣传片
 
-<video src="https://resource.huahuo-cn.tk/media/videometa/Minecraft-Legends-AD.mp4" controls="controls" style="width:100%"></video>
+<video src="https://media-fs.huahuo-cn.tk/api/raw?path=/videometa/Minecraft-Legends-AD.mp4" controls="controls" style="width:100%"></video>
 
 ## 个人看法
 

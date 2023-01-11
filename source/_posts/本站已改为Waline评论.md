@@ -7,4 +7,4 @@ tags: 公告
 注册：[点我前往](https://comment-service.huahuo-cn.tk/ui/register)
 测试界面：[点我前往](https://comment-service.huahuo-cn.tk/)
 ### 效果
-![ExampleImage](https://resource.huahuo-cn.tk/media/blog/Waline_Demo.png)
+![ExampleImage](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/Waline_Demo.png)

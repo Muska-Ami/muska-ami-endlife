@@ -1,13 +1,13 @@
 
 !!! info 互联网很精彩
     互联网很精彩，看见一个nt问题也很精彩
-    ![](https://resource.huahuo-cn.tk/media/blog/%E5%A6%82%E4%BD%95%E9%97%AE%E4%B8%80%E4%B8%AA%E5%A5%BD%E9%97%AE%E9%A2%98/564d4931c9367afd.jpg)
+    ![](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/%E5%A6%82%E4%BD%95%E9%97%AE%E4%B8%80%E4%B8%AA%E5%A5%BD%E9%97%AE%E9%A2%98/564d4931c9367afd.jpg)
     不要让别人的时间浪费在你无聊的问题上
 
 ## 如何问一个好问题图解
 
-![](https://resource.huahuo-cn.tk/media/blog/%E5%A6%82%E4%BD%95%E9%97%AE%E4%B8%80%E4%B8%AA%E5%A5%BD%E9%97%AE%E9%A2%98/-4f08cafe26c9be4f.jpg)
-![](https://resource.huahuo-cn.tk/media/%E5%9C%A8%E6%B2%A1%E6%9C%89%E9%94%99%E8%AF%AF%E6%97%A5%E5%BF%97%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%E8%AF%8A%E6%96%AD%E4%BB%BB%E4%BD%95%E9%97%AE%E9%A2%98%E6%97%A0%E5%BC%82%E4%BA%8E%E9%97%AD%E7%9C%BC%E5%BC%80%E8%BD%A6.jpg)
+![](https://media-fs.huahuo-cn.tk/api/raw?path=/blog/%E5%A6%82%E4%BD%95%E9%97%AE%E4%B8%80%E4%B8%AA%E5%A5%BD%E9%97%AE%E9%A2%98/-4f08cafe26c9be4f.jpg)
+![](https://media-fs.huahuo-cn.tk/api/raw?path=/%E5%9C%A8%E6%B2%A1%E6%9C%89%E9%94%99%E8%AF%AF%E6%97%A5%E5%BF%97%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%E8%AF%8A%E6%96%AD%E4%BB%BB%E4%BD%95%E9%97%AE%E9%A2%98%E6%97%A0%E5%BC%82%E4%BA%8E%E9%97%AD%E7%9C%BC%E5%BC%80%E8%BD%A6.jpg)
 
 ## 如何问一个好问题
 
