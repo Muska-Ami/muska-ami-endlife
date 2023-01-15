@@ -1,0 +1,94 @@
+body {
+    font-size: 18px;
+    color: #6c767d;
+    background-color: #ebf1f5;
+    background-image: linear-gradient(-90deg, #85e6d1, #7ea3dc 60%, #c0fffa);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: .5em;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 1em;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: black;
+}
+
+.card {
+    border: none;
+    padding: 40px 80px 0px;
+    border-radius: 0;
+}
+
+.container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card-text {
+    margin-bottom: 20px;
+}
+
+.photo-bg {
+    /* background-image: url(assets/background.jpg); */
+    background-image: url(https://huahuo-cn.tk/images/favicon.png);
+    background-position: center;
+    background-color: white;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+@media (max-width: 1199px) {
+    body {
+        min-height: 600px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2,
+    .social .fa {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4,
+    p {
+        font-size: 14px;
+    }
+    .card {
+        padding: 50px 50px 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    .photo-bg {
+        display: none;
+    }
+}
