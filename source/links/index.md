@@ -68,7 +68,7 @@
         </a>
     </div>
 </div>
-
+<!--
 <div class="friends">
     <img src="https://i0.wp.com/suifeng.world/wp-content/uploads/2022/12/QQ%E5%9B%BE%E7%89%8720221223101322.jpg">
     <div class="dv2">
@@ -78,6 +78,7 @@
         </a>
     </div>
 </div>
+-->
 
 <div class="friends">
     <img src="https://i0.wp.com/cravatar.cn/avatar/5417982dfeabcb9a22bfc582c88a4759?s=640">
