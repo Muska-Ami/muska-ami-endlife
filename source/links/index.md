@@ -8,6 +8,16 @@
     - 描述: Keep doing, keep loving.
     - 网址: https://huahuo-cn.tk
     - 头像: https://huahuo-cn.tk/images/favicon.png
+    
+<div class="friends">
+    <!--<img src="https://q2.qlogo.cn/headimg_dl?dst_uin=395667235&spec=640">-->
+    <div class="dv2">
+        <a href="https://locyanfrp.cn/">
+            <h4>Locyan Frp</h4>
+            <p>免费 公益的Frp</p>
+        </a>
+    </div>
+</div>
 
 <div class="friends">
     <img src="https://q2.qlogo.cn/headimg_dl?dst_uin=395667235&spec=640">
