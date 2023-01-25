@@ -111,7 +111,7 @@
 </div>
 
 <div class="friends">
-    <img src="https://i0.wp.com/afqaq.com/wp-content/uploads/2020/08/37390fadc0ad9dfb.jpg">
+    <img src="https://i0.wp.com/afqaq.com/wp-content/uploads/2021/10/CTXLNIED9S_1OVJN3XK.jpg">
     <div class="dv2">
         <a href="https://afqaq.com/">
             <h4>阿付の小破站</h4>
