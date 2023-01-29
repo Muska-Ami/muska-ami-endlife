@@ -10,6 +10,16 @@
     - 头像: https://huahuo-cn.tk/images/favicon.png
     
 <div class="friends">
+    <img src="https://media-fs.huahuo-cn.tk/api/raw/?path=/flicon/%5BThumb%5D640735631011-db749195-72fc-3cc1-8957-001348289fa0.jpg">
+    <div class="dv2">
+        <a href="http://www.mspx.tk/">
+            <h4>Locyan Frp</h4>
+            <p>免费 公益的Frp</p>
+        </a>
+    </div>
+</div>
+
+<div class="friends">
     <!--<img src="https://q2.qlogo.cn/headimg_dl?dst_uin=395667235&spec=640">-->
     <div class="dv2">
         <a href="https://locyanfrp.cn/">
