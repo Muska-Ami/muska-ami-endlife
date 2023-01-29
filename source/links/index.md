@@ -13,8 +13,8 @@
     <img src="https://media-fs.huahuo-cn.tk/api/raw/?path=/flicon/%5BThumb%5D640735631011-db749195-72fc-3cc1-8957-001348289fa0.jpg">
     <div class="dv2">
         <a href="http://www.mspx.tk/">
-            <h4>Locyan Frp</h4>
-            <p>免费 公益的Frp</p>
+            <h4>MSMP</h4>
+            <p>MSMP Minecraft服务器 官方网站</p>
         </a>
     </div>
 </div>
