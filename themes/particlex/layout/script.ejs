@@ -25,7 +25,7 @@
 </script>
 <% } %>
 <% if (theme.waline.enable && (is_post() || is_page())) { %>
-<script src="https://unpkg.com/@waline/client@v2/dist/waline.mjs"></script>
+<script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
 <script>
     Waline.init({
         el: '#waline-container',
@@ -40,7 +40,12 @@
         pageSize: "<%- theme.waline.pageSize %>",
         login: "<%- theme.waline.login %>",
         locale: <%- JSON.stringify(theme.waline.locale) %>,
-        recaptchaV3Key: "<%- theme.waline.recaptchaV3Key %>"
+        <% if (theme.waline.recaptchaV3Key != null) { %>
+        recaptchaV3Key: "<%- theme.waline.recaptchaV3Key %>",
+        <% } %>
+        <% if (theme.waline.turnstileKey != null) { %>
+        turnstileKey: "<%- theme.waline.turnstileKey %>",
+        <% } %>
     });
 </script>
 <% } %>
