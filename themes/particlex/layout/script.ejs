@@ -25,7 +25,7 @@
 </script>
 <% } %>
 <% if (theme.waline.enable && (is_post() || is_page())) { %>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waline/2.14.7/waline.min.js"></script>
+<script src="https://unpkg.com/@waline/client@v2/dist/waline.mjs"></script>
 <script>
     Waline.init({
         el: '#waline-container',
