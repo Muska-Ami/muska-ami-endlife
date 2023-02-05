@@ -15,8 +15,9 @@ Theme [ParticleX](https://github.com/argvchs/hexo-theme-particlex)
 [OneDrive](https://onedrive.live.com)提供 文件服务
 
 使用到的一些开源项目
-OneManager-php [https://github.com/qkqpttgf/OneManager-php](https://github.com/qkqpttgf/OneManager-php)
-onedrive-vercel-index [https://github.com/spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index)
+OneManager-php [https://github.com/qkqpttgf/OneManager-php/](https://github.com/qkqpttgf/OneManager-php/)
+onedrive-vercel-index [https://github.com/spencerwooo/onedrive-vercel-index/](https://github.com/spencerwooo/onedrive-vercel-index/)
+Cloudreve [https://cloudreve.org/](https://cloudreve.org/)
 
 # 关于XiaMoHuaHuo_CN
 
