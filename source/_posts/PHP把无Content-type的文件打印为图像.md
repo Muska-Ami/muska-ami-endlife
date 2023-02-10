@@ -4,7 +4,6 @@ date: 2022-2-7 18:13:15
 tag: 教程
 ---
 用了GD库，记得开扩展
-
 ```php
 /**
  * @param string url 图片地址

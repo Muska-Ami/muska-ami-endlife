@@ -8,7 +8,6 @@ CraftBukkit没内置TPS接口，所以整了个TPS计算
 ## 前置代码
 
 先新创建个类，比如我这个叫**ServerTPS**，往里面塞计算器
-
 ```java
 public class ServerTPS implements Runnable {
     public static final long[] TICKS = new long[600];
@@ -39,9 +38,7 @@ public class ServerTPS implements Runnable {
     }
 }
 ```
-
 然后再在主类的**onEnable()**里面调用
-
 ```java
 // 我这里类名叫ServerTPS，所以用的是new ServerTPS()
 // 用的时候注意改成自己的类名
@@ -51,16 +48,13 @@ Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(this, new ServerTPS(
 ## 使用
 
 获得当前TPS
-
 ```java
 // 记得引入类
 import example.ServerTPS;
 
 ServerTPS.getTPS();
 ```
-
 获取相对滞后程度
-
 ```java
 // 记得引入类
 import example.ServerTPS;

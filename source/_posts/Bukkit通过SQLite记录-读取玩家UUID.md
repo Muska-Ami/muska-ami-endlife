@@ -3,9 +3,7 @@ title: 'Bukkit通过SQLite记录/读取玩家UUID'
 date: 2022-7-28 19:38:00
 tag: 教程
 ---
-
 ## SQL对接部分
-
 先是个类，对接SQL
 
 ```java

@@ -3,7 +3,6 @@ title: 'Java实现SLP(ServerListPing)获取Minecraft服务器信息(Java版)'
 date: 2022-7-24 12:47:12
 tag: 教程
 ---
-
 ## SLP原理
 
 [https://wiki.vg](https://wiki.vg)上面有详细说明，发包给Minecraft服务器就行
@@ -276,12 +275,12 @@ Maven部分
     </properties>
 
     <repositories>
-
+        
         <repository>
             <id>maven</id>
             <url>https://maven.aliyun.com/nexus/content/groups/public/</url>
         </repository>
-
+        
     </repositories>
 
     <dependencies>

@@ -1,5 +1,5 @@
 hljs.highlightAll();
-hljs.configure({ignoreUnescapedHTML: true});
+hljs.configure({ ignoreUnescapedHTML: true });
 const App = Vue.createApp({
     data() {
         return {

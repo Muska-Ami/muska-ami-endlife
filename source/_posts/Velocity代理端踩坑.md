@@ -5,7 +5,7 @@ tag: [ "Minecraft", "Velocity" ]
 ---
 
 !!! note
-这都踩坑，难受了
+    这都踩坑，难受了
 
 Velocity端使用 `modern` 模式转发数据的时候，子端的 `spigot.yml` 中需要把 `bungeecord` 选项改为 `false` ，不然会导致无法加入
 

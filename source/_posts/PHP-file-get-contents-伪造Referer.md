@@ -5,7 +5,6 @@ tags: ["教程", "笔记"]
 ---
 方法如下
 添加请求的Referer地址
-
 ```php
 <?php
 $url = ""; // 请求地址
@@ -16,9 +15,9 @@ $fgc = file_get_contents($url, false, $context);
 ```
 
 !!! note 笔记：获取随机二次元图——破解微博图床Referer检测
-代码如下
-原理：添加Referer为 `https://weibo.com` ，通过 `file_get_contents()` 由服务器获得图像数据再输出给客户端
-需要设置 `header()` 中 `Content-type`
+    代码如下
+    原理：添加Referer为 `https://weibo.com` ，通过 `file_get_contents()` 由服务器获得图像数据再输出给客户端
+    需要设置 `header()` 中 `Content-type`
 
 ```php
 <?php

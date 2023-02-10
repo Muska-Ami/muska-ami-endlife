@@ -1,7 +1,6 @@
 ---
 title: 关于
 ---
-
 # 关于XiaMoHuaHuo_CN's Blog
 
 Copyright © 2021 - <script>document.write(new Date().getFullYear());</script> XiaMoHuaHuo_CN

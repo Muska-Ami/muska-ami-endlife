@@ -3,7 +3,6 @@ title: 'Mojang又开新坑——Minecraft Legends'
 date: 2022-07-10 22:49:25
 tags: 介绍
 ---
-
 ## 宣传片
 
 <video src="https://resource.huahuo-cn.tk/media/videometa/Minecraft-Legends-AD.mp4" controls="controls" style="width:100%"></video>
