@@ -1,20 +1,77 @@
 <div id="home-head">
-    <div id="home-background" style="background-image: url(<%- theme.home_background %>)"></div>
+    <div id="home-background" style="text-align:center"><!-- style="background-image: url(<-%- theme.home_background %->)"-->
+        <video id="home-video"
+               style="height: 100%;"
+               src="https://drive-fs.huahuo-cn.tk/DiskMedia/videometa/935952366_nb3-1-16.mp4"
+               autoplay
+               muted
+               preload="metadata"
+        ></video>
+    </div>
     <% if (theme.head_block_enable) { %>
-    <div id="home-info" class="home-info" @click="home_click">
-        <span class="loop"></span>
+    <div id="home-info" class="home-info">
         <span class="loop"></span>
         <span class="loop"></span>
         <span class="loop"></span>
         <span class="info">
             <div class="wrap">
-                <h1><%= theme.title %></h1>
-                <h3><%= config.subtitle %></h3>
                 <% if (theme.jinrishici) { %>
-                <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-                <h5 id="jinrishici-sentence">#Today Poem</h5>
+                    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+                    <h2 id="jinrishici-sentence">#Today Poem</h2>
                 <% } %>
+                    <span style="font-size: larger" @click="home_click"><%= theme.title %></span>
+                    <!--
+                    <br />
+                    <div class="controls" style="margin-top: 20px; background: rgba(159,234,255,0.62);border-radius: 10px;padding: 10px">
+                        !-- 播放暂停 --
+                        <button class="playerc csta" style="background: none;border: none" onclick="startv()">
+                            <i class="fa-solid fa-play fa-fw"></i>
+                        </button>
+                        <button class="playerc csto" style="background: none;border: none;display: none" onclick="stopv()">
+                            <i class="fa-solid fa-pause fa-fw"></i>
+                        </button>
+                        &nbsp;&nbsp;
+
+                        !-- 声音 --
+                        <button class="playerc cstvn" style="background: none;border: none;display: none" onclick="volumenv()">
+                            <i class="fa-solid fa-volume-xmark fa-fw"></i>
+                        </button>
+                        <button class="playerc cstvy" style="background: none;border: none" onclick="volumeyv()">
+                            <i class="fa-solid fa-volume-high fa-fw"></i>
+                        </button>
+                    </div>
+                    -->
             </div>
+            <!--
+            <script>
+            videometa = document.getElementById("home-video")
+            videometa.muted = false
+            videometa.onplaying = function () {
+                document.querySelector(".csta").style.display = "none"
+                document.querySelector(".csto").style.display = ""
+            }
+            function startv() {
+                document.querySelector(".csta").style.display = "none"
+                document.querySelector(".csto").style.display = ""
+                videometa.play()
+            }
+            function stopv() {
+                document.querySelector(".csto").style.display = "none"
+                document.querySelector(".csta").style.display = ""
+                videometa.pause()
+            }
+            function volumeyv() {
+                document.querySelector(".cstvy").style.display = "none"
+                document.querySelector(".cstvn").style.display = ""
+                videometa.muted = true
+            }
+            function volumenv() {
+                document.querySelector(".cstvn").style.display = "none"
+                document.querySelector(".cstvy").style.display = ""
+                videometa.muted = false
+            }
+            </script>
+            -->
         </span>
     </div>
     <% } %>
