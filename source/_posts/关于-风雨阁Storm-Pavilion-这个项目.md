@@ -2,9 +2,11 @@
 title: 关于 风雨阁Storm Pavilion 这个项目
 date: 2022-12-18 16:37:17
 tags:
-  - SPCraftMC
-  - Minecraft
-  - 日记
+
+- SPCraftMC
+- Minecraft
+- 日记
+
 ---
 时光一去不复返，距离风雨阁Storm Pavilion | Minecraft服务器开服已经快2年了，是时候写一篇文章表达自己对这个项目的态度了。
 
@@ -14,9 +16,11 @@ tags:
 
 ## 风雨阁Storm Pavilion的前身今世
 
-其实早在风雨阁Storm Pavilion开服前，我就开过另一个Minecraft服务器——霜雪樱花Frost Snow Cherry Blossoms，但是由于当时的技术力不足，且没有资金，仅开服3个月就宣布停服。
+其实早在风雨阁Storm Pavilion开服前，我就开过另一个Minecraft服务器——霜雪樱花Frost Snow Cherry
+Blossoms，但是由于当时的技术力不足，且没有资金，仅开服3个月就宣布停服。
 
-霜雪樱花Frost Snow Cherry Blossoms是我的一个遗憾，也是我成长的一步。正是那个时候，我熟悉了Minecraft服务端（特别是Bukkit系的Spigot），也确定了开服的那些不可或缺的插件——EssX（当然现在可以用CMI来代替），PAPI，PLib等这些大部分插件依赖的，以及找到了我至今最喜欢的登录插件：CatSeedLogin。
+霜雪樱花Frost Snow Cherry
+Blossoms是我的一个遗憾，也是我成长的一步。正是那个时候，我熟悉了Minecraft服务端（特别是Bukkit系的Spigot），也确定了开服的那些不可或缺的插件——EssX（当然现在可以用CMI来代替），PAPI，PLib等这些大部分插件依赖的，以及找到了我至今最喜欢的登录插件：CatSeedLogin。
 
 说实话，风雨阁Storm Pavilion的官方群就是继承当年霜雪樱花Frost Snow Cherry Blossoms的官方群而来的。
 

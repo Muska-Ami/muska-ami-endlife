@@ -5,6 +5,7 @@ tag: 笔记
 ---
 使用PHP快速进行cURL请求
 包括设置UA,Referer,超时时间等
+
 ```php
 /**
  * @param mixed $url 请求地址
@@ -31,7 +32,9 @@ function curl($url, $UA = 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 	return $output;
 }
 ```
+
 使用PHP-cURL获取跳转到的链接
+
 ```php
 /**
  * @param mixed $url 短链接（原链接）

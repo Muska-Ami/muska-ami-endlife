@@ -10,28 +10,36 @@ tag: 教程
 这里用`proot-distro`来安装和启动Ubuntu
 首先执行安装命令安装(如果较慢请自备魔法，或者等)
 安装`proot-distro`
+
 ```bash
 pkg install proot-distro
 ```
+
 安装`Ubuntu`
+
 ```bash
 proot-distro install ubuntu
 ```
+
 安装完毕后，执行下方命令进入系统
+
 ```bash
 proot-distro login ubuntu
 ```
+
 然后你就完成一半了!
 
 ## 部署VNC服务
 
 接下来让我们安装VNC服务，这里用的是`tmoe`的脚本
 启动`tmoe`脚本
+
 ```bash
 cd /tmp
 curl -LO https://l.tmoe.me/2.awk
 awk -f 2.awk
 ```
+
 然后选择`<Tools>`
 ![](https://resource.huahuo-cn.tk/media/blog/termux-idea/Screenshot_20221106_150608_com.termux_edit_27848059930646.jpg)
 选择`GUI:图形界面`
@@ -52,39 +60,50 @@ awk -f 2.awk
 
 首先预备一个VNC客户端(随便下一个，这里推荐`VNC Viewer`)，等会连接要用
 使用自带`apt`命令安装Java
+
 ```bash
 apt update
 apt install openjdk-8-jre
 ```
+
 然后让我们下载IntelliJ IDEA Linux版本
 [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/)
 然后复制到一个目录下并解压，比如我放在`/opt/idea/`中
+
 ```bash
 cp <idea文件路径带名称> /opt/idea/
 cd /opt/idea/
 tar xzvf <idea文件名>
 ```
+
 然后就大功告成！没错，不需要配置环境变量
 
 ## 连接VNC
 
 设置下管理员密码，不然我自己都不知道
+
 ```bash
 passwd
 ```
+
 输出
+
 ```bash
 root@localhost:/opt/idea# passwd
 New password:
 Retype new password:
 passwd: password updated successfully
 ```
+
 就成功了
 先启动VNC服务
+
 ```bash
 startvnc
 ```
+
 返回
+
 ```bash
 root@localhost:/tmp# startvnc
 Starting vnc server ...
@@ -108,6 +127,7 @@ cat -n /root/.vnc/vnc.log
      8   vncext:      VNC extension running!
      9   vncext:      Listening for VNC connections on all interface(s), port 5902                10   vncext:      created VNC server for screen 0
 ```
+
 打开安装的VNC客户端，添加VNC服务器，地址写`localhost:<刚才选的端口>`，连接
 显示像我这个图就成功了
 ![](https://resource.huahuo-cn.tk/media/blog/termux-idea/Screenshot_20221106_153428_com.realvnc.viewer.android.jpg)

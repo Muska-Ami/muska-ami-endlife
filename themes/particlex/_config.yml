@@ -26,138 +26,138 @@ vf_fonts_enable: false
 
 # main menu navigation
 menu:
-    首页:
-        name: house
-        theme: solid
-        src: /
-    归档:
-        name: box-archive
-        theme: solid
-        src: /archives
-    标签:
-        name: tags
-        theme: solid
-        src: /tags
-    关于:
-        name: id-card
-        theme: solid
-        src: /about
-    友情链接:
-        name: user-group
-        theme: solid
-        src: /links
-    如何正确提问:
-        name: circle-question
-        theme: solid
-        src: /how-to-ask-question
-    # Example:
-    # <name>:
-    #     name: <icon-name>
-    #     theme: <icon-theme>
-    #     src: <link-url>
+  首页:
+    name: house
+    theme: solid
+    src: /
+  归档:
+    name: box-archive
+    theme: solid
+    src: /archives
+  标签:
+    name: tags
+    theme: solid
+    src: /tags
+  关于:
+    name: id-card
+    theme: solid
+    src: /about
+  友情链接:
+    name: user-group
+    theme: solid
+    src: /links
+  如何正确提问:
+    name: circle-question
+    theme: solid
+    src: /how-to-ask-question
+  # Example:
+  # <name>:
+  #     name: <icon-name>
+  #     theme: <icon-theme>
+  #     src: <link-url>
 
 # side info card
 card:
-    enable: true
-    description: ["Keep doing, keep loving.❤"] # You can add more
-    icon_links:
-        bilibili:
-            name: bilibili
-            theme: brands
-            link: https://space.bilibili.com/372657168
-        twitter:
-            name: twitter
-            theme: brands
-            link: https://twitter.com/XiaMoHuaHuo_CN
-        github:
-            name: github
-            theme: brands
-            link: https://github.com/XiaMoHuaHuo-CN
-        klpbbs:
-            name: earth-americas
-            theme: solid
-            link: https://klpbbs.com/?71576
-        mcbbs:
-            name: earth-americas
-            theme: solid
-            link: https://www.mcbbs.net/?2829459
-        qq:
-            name: qq
-            theme: brands
-            link: http://wpa.qq.com/msgrd?v=3&uin=2549619802&site=qq&menu=yes
-        # Example:
-        # <name>:
-        #    name: <icon-name>
-        #    theme: <icon-theme>
-        #    link: <link-url>
-    friend_links:
-        赞助我: https://sponsors.huahuo-cn.tk/
-        # Example:
-        # <name>: <link-url>
+  enable: true
+  description: [ "Keep doing, keep loving.❤" ] # You can add more
+  icon_links:
+    bilibili:
+      name: bilibili
+      theme: brands
+      link: https://space.bilibili.com/372657168
+    twitter:
+      name: twitter
+      theme: brands
+      link: https://twitter.com/XiaMoHuaHuo_CN
+    github:
+      name: github
+      theme: brands
+      link: https://github.com/XiaMoHuaHuo-CN
+    klpbbs:
+      name: earth-americas
+      theme: solid
+      link: https://klpbbs.com/?71576
+    mcbbs:
+      name: earth-americas
+      theme: solid
+      link: https://www.mcbbs.net/?2829459
+    qq:
+      name: qq
+      theme: brands
+      link: http://wpa.qq.com/msgrd?v=3&uin=2549619802&site=qq&menu=yes
+    # Example:
+    # <name>:
+    #    name: <icon-name>
+    #    theme: <icon-theme>
+    #    link: <link-url>
+  friend_links:
+    赞助我: https://sponsors.huahuo-cn.tk/
+    # Example:
+    # <name>: <link-url>
 
 # footer info
 footer:
-    since: 2021
-    # MoeICP
-    MoeICP:
-        enable: true
-        code: 20220860
-        icon: /images/moeicpico64.png
-    # Customize the server domain name ICP
-    ICP:
-        enable: false
-        code:
-        link:
+  since: 2021
+  # MoeICP
+  MoeICP:
+    enable: true
+    code: 20220860
+    icon: /images/moeicpico64.png
+  # Customize the server domain name ICP
+  ICP:
+    enable: false
+    code:
+    link:
 
 # Gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-    enable: false
-    clientID: # Default ClientID
-    clientSecret: # Default ClientSecret
-    repo: # The name of repository of store comments
-    owner: # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize github issues
-    language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available.
-    proxy: # CORS proxy
-    sites: # Sites
-        []
-        # Example:
-        # <www.example.com>:
-        #    clientID: <client-id>
-        #    clientSecret: <client-secret>
+  enable: false
+  clientID: # Default ClientID
+  clientSecret: # Default ClientSecret
+  repo: # The name of repository of store comments
+  owner: # GitHub repo owner
+  admin: # GitHub repo owner and collaborators, only these guys can initialize github issues
+  language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available.
+  proxy: # CORS proxy
+  sites: # Sites
+    [ ]
+    # Example:
+    # <www.example.com>:
+    #    clientID: <client-id>
+  #    clientSecret: <client-secret>
 
 # Waline
 # https://github.com/walinejs/waline
 waline:
-    enable: true
-    serverURL: https://comment-service.huahuo-cn.tk # Waline server address url, you should set this to your own link
-    locale: # Locale: https://waline.js.org/guide/client/i18n.html#locale-option
-        {}
-        # Example:
-        # placeholder: Leave a comment
-    commentCount: true # If false, comment count will only be displayed in post page, not in home page
-    pageview: false # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`
-    emoji: # Custom emoji
-        - https://unpkg.com/@waline/emojis@latest/bilibili
-        - https://unpkg.com/@waline/emojis@latest/qq
-        - https://unpkg.com/@waline/emojis@latest/tieba
-    meta: # Comment information, valid meta are nick, mail and link
-        - nick
-        - mail
-        - link
-    requiredMeta: # Set required meta field, e.g.: [nick] | [nick, mail]
-        - nick
-    lang: zh-CN # Language, available values: en-US, zh-CN, zh-TW, pt-BR, ru-RU, jp-JP
-    wordLimit: 0 # Word limit, no limit when setting to 0
-    login: enable # Whether enable login, can choose from 'enable', 'disable' and 'force'
-    pageSize: 10 # Comment per page
-    #recaptchaV3Key: 6LftErYjAAAAAMycg5tTygJ3guWywZdUQha5hrMK
-    turnstileKey: 0x4AAAAAAACV2yY6cMxcMbWm
+  enable: true
+  serverURL: https://comment-service.huahuo-cn.tk # Waline server address url, you should set this to your own link
+  locale: # Locale: https://waline.js.org/guide/client/i18n.html#locale-option
+    { }
+    # Example:
+  # placeholder: Leave a comment
+  commentCount: true # If false, comment count will only be displayed in post page, not in home page
+  pageview: false # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`
+  emoji: # Custom emoji
+    - https://unpkg.com/@waline/emojis@latest/bilibili
+    - https://unpkg.com/@waline/emojis@latest/qq
+    - https://unpkg.com/@waline/emojis@latest/tieba
+  meta: # Comment information, valid meta are nick, mail and link
+    - nick
+    - mail
+    - link
+  requiredMeta: # Set required meta field, e.g.: [nick] | [nick, mail]
+    - nick
+  lang: zh-CN # Language, available values: en-US, zh-CN, zh-TW, pt-BR, ru-RU, jp-JP
+  wordLimit: 0 # Word limit, no limit when setting to 0
+  login: enable # Whether enable login, can choose from 'enable', 'disable' and 'force'
+  pageSize: 10 # Comment per page
+  #recaptchaV3Key: 6LftErYjAAAAAMycg5tTygJ3guWywZdUQha5hrMK
+  turnstileKey: 0x4AAAAAAACV2yY6cMxcMbWm
 
 postbottom:
-    enable: true
-    text: 本站除特殊声明，均采用CC-BY-SA-4.0协议
-    license:
-        name: CC-BY-SA-4.0
-        url: https://creativecommons.org/licenses/by-sa/4.0/
+  enable: true
+  text: 本站除特殊声明，均采用CC-BY-SA-4.0协议
+  license:
+    name: CC-BY-SA-4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/

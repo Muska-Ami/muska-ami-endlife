@@ -1,13 +1,13 @@
 # 友情链接
 
 本站的一些友链，欢迎来交换友链OVO  
-交换友链请发送<font color="red">邮件</font>到<a href="mailto:xiamohuahuo-cn@qq.com">xiamohuahuo-cn@qq.com</a>  
+交换友链请发送<font color="red">邮件</font>到<a href="mailto:xiamohuahuo-cn@qq.com">xiamohuahuo-cn@qq.com</a>
 
 !!! info 本站信息
-    - 名称: XiaMoHuaHuo_CN's Blog
-    - 描述: Keep doing, keep loving.
-    - 网址: https://huahuo-cn.tk
-    - 头像: https://huahuo-cn.tk/images/favicon.png
+- 名称: XiaMoHuaHuo_CN's Blog
+- 描述: Keep doing, keep loving.
+- 网址: https://huahuo-cn.tk
+- 头像: https://huahuo-cn.tk/images/favicon.png
 
 <div class="friends">
     <img src="https://www.rtcraft.cn/assets/img/favicon.png">
