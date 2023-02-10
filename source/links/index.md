@@ -8,7 +8,17 @@
     - 描述: Keep doing, keep loving.
     - 网址: https://huahuo-cn.tk
     - 头像: https://huahuo-cn.tk/images/favicon.png
-    
+
+<div class="friends">
+    <img src="https://www.rtcraft.cn/assets/img/favicon.png">
+    <div class="dv2">
+        <a href="https://www.rtcraft.cn/">
+            <h4>RTCraft 服务器官网</h4>
+            <p>一个生存类RPG服务器</p>
+        </a>
+    </div>
+</div>
+
 <div class="friends">
     <img src="https://media-fs.huahuo-cn.tk/api/raw/?path=/flicon/%5BThumb%5D640735631011-db749195-72fc-3cc1-8957-001348289fa0.jpg">
     <div class="dv2">
