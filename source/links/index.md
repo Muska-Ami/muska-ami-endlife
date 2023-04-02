@@ -121,7 +121,7 @@
 </div>
 
 <div class="friends">
-    <img src="https://i0.wp.com/img-2.shanrenyi.top/i/2022/07/11/62cbd8d6468e5.png">
+    <img src="https://pic-img.shanrenyi.top/i/2023/03/07/7dc8b8dd-02b1-b3f2-bc3c-63052d5b5b6a.png">
     <div class="dv2">
         <a href="https://shanrenyi.top/">
             <h4>Charles' Blog</h4>
