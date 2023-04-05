@@ -152,8 +152,8 @@ waline:
     wordLimit: 0 # Word limit, no limit when setting to 0
     login: enable # Whether enable login, can choose from 'enable', 'disable' and 'force'
     pageSize: 10 # Comment per page
-    #recaptchaV3Key: 6LftErYjAAAAAMycg5tTygJ3guWywZdUQha5hrMK
-    turnstileKey: 0x4AAAAAAACV2yY6cMxcMbWm
+    recaptchaV3Key: 6LftErYjAAAAAMycg5tTygJ3guWywZdUQha5hrMK
+    #turnstileKey: 0x4AAAAAAACV2yY6cMxcMbWm
 
 postbottom:
     enable: true
