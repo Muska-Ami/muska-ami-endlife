@@ -12,9 +12,9 @@
 <div class="friends">
     <img src="https://xiaojin233.cn/img/avator.png">
     <div class="dv2">
-        <a href="https://xiaojjn233.cn/">
-            <h4>Jinzhijie</h4>
-            <p>Jinzhijie大佬的个人网站</p>
+        <a href="https://xiaojin233.cn/">
+            <h4>Xiao_Jin</h4>
+            <p>5050net（AS149795 Zhijie Jin）NOC</p>
         </a>
     </div>
 </div>
