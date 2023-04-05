@@ -6,8 +6,8 @@
 !!! info 本站信息
     - 名称: XiaMoHuaHuo_CN's Blog
     - 描述: Keep doing, keep loving.
-    - 网址: https://ovome.icu
-    - 头像: https://ovome.icu/images/favicon.png
+    - 网址: https://blog.ovome.icu
+    - 头像: https://blog.ovome.icu/images/favicon.png
 
 <div class="friends">
     <img src="https://media-fs.huahuo-cn.tk/api/raw/?path=/flicon/%5BThumb%5D640735631011-db749195-72fc-3cc1-8957-001348289fa0.jpg">
