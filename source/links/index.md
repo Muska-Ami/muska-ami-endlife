@@ -10,6 +10,16 @@
     - 头像: https://blog.ovome.icu/images/favicon.png
 
 <div class="friends">
+    <img src="https://xiaojin233.cn/img/avator.png">
+    <div class="dv2">
+        <a href="https://xiaojjn233.cn/">
+            <h4>Jinzhijie</h4>
+            <p>Jinzhijie大佬的个人网站</p>
+        </a>
+    </div>
+</div>
+
+<div class="friends">
     <img src="https://media-fs.huahuo-cn.tk/api/raw/?path=/flicon/%5BThumb%5D640735631011-db749195-72fc-3cc1-8957-001348289fa0.jpg">
     <div class="dv2">
         <a href="http://www.mspx.tk/">
