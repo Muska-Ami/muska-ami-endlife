@@ -10,6 +10,16 @@
     - 头像: https://blog.ovome.icu/images/favicon.png
 
 <div class="friends">
+    <img src="https://blog.eunoia.top/12.jpg">
+    <div class="dv2">
+        <a href="https://blog.eunoia.top/">
+            <h4>Eunoia博客</h4>
+            <p>山海不可平</p>
+        </a>
+    </div>
+</div>
+
+<div class="friends">
     <img src="https://xiaojin233.cn/img/avator.png">
     <div class="dv2">
         <a href="https://xiaojin233.cn/">
