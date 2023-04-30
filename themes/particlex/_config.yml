@@ -15,7 +15,7 @@ head_block_enable: true
 jinrishici: true
 
 # home page head background style
-home_background: https://api.ixiaowai.cn/api/api2.php #https://api.ixiaowai.cn/api/api.php
+home_background: https://api.lazy.ink/img
 
 # WARNING! vf_fonts (variable fonts) feature is EXPERIMENTAL
 # MDN: https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
