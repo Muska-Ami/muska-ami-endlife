@@ -40,7 +40,7 @@
 </div>
 
 <div class="friends">
-    <!--<img src="https://q2.qlogo.cn/headimg_dl?dst_uin=395667235&spec=640">-->
+    <img src="https://locyanfrp.cn/favicon.ico">
     <div class="dv2">
         <a href="https://locyanfrp.cn/">
             <h4>Locyan Frp</h4>
