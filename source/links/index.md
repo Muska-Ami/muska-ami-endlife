@@ -30,11 +30,11 @@
 </div>
 
 <div class="friends">
-    <img src="https://media-fs.huahuo-cn.tk/api/raw/?path=/flicon/%5BThumb%5D640735631011-db749195-72fc-3cc1-8957-001348289fa0.jpg">
+    <img src="https://s2.loli.net/2023/07/04/LkGnOupNKtxTPlZ.png">
     <div class="dv2">
-        <a href="http://www.mspx.tk/">
-            <h4>MSMP-Earth</h4>
-            <p>MSMP-Earth服务器官网</p>
+        <a href="https://mspx.tk/">
+            <h4>MSMP</h4>
+            <p>Maplefall服务器官网</p>
         </a>
     </div>
 </div>
