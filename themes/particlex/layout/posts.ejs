@@ -48,7 +48,10 @@
             <% } else if (post.excerpt) { %>
             <%- post.excerpt %>
             <% } else { %>
-            <%- post.content %>
+                <%- truncate(strip_html(post.content), {
+                    length: 150,
+                    omission: '......'
+                }) %>
             <% } %>
         </div>
     </div>

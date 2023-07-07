@@ -24,24 +24,56 @@ menu:
         name: id-card
         theme: solid
         link: /about
-    #Archives:
-    #    name: box-archive
-    #    theme: solid
-    #    link: /archives
-    Categories:
-        name: bookmark
+    归档:
+        name: box-archive
         theme: solid
-        link: /categories
+        link: /archives
+    #Categories:
+    #    name: bookmark
+    #    theme: solid
+    #    link: /categories
     标签:
         name: tags
         theme: solid
         link: /tags
+    友情链接:
+        name: user-group
+        theme: solid
+        link: /links
+    如何正确提问:
+        name: circle-question
+        theme: solid
+        link: /how-to-ask-question
 
 # Side info card
 card:
     enable: true
     description: Keep doing, keep loving❤.
     iconLinks:
+        bilibili:
+            name: bilibili
+            theme: brands
+            link: https://space.bilibili.com/372657168
+        twitter:
+            name: twitter
+            theme: brands
+            link: https://twitter.com/XiaMoHuaHuo_CN
+        github:
+            name: github
+            theme: brands
+            link: https://github.com/XiaMoHuaHuo-CN
+        klpbbs:
+            name: earth-americas
+            theme: solid
+            link: https://klpbbs.com/?71576
+        mcbbs:
+            name: earth-americas
+            theme: solid
+            link: https://www.mcbbs.net/?2829459
+        qq:
+            name: qq
+            theme: brands
+            link: http://wpa.qq.com/msgrd?v=3&uin=2549619802&site=qq&menu=yes
     friendLinks: []
 
 # Footer info
