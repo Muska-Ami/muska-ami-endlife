@@ -1,36 +1,46 @@
 # 友情链接
 
 本站的一些友链，欢迎来交换友链OVO  
-交换友链请发送<font color="red">邮件</font>到<a href="mailto:xiamohuahuo-cn@qq.com">xiamohuahuo-cn@qq.com</a>  
+交换友链请发送<font color="red">邮件</font>到<a href="mailto:mail@huahuo-cn.tk">mail@huahuo-cn.tk</a>  
 
 !!! info 本站信息
     - 名称: XiaMoHuaHuo_CN's Blog
     - 描述: Keep doing, keep loving.
-    - 网址: https://huahuo-cn.tk
-    - 头像: https://huahuo-cn.tk/images/favicon.png
+    - 网址: https://blog.ovome.icu
+    - 头像: https://blog.ovome.icu/images/favicon.png
 
 <div class="friends">
-    <img src="https://www.rtcraft.cn/assets/img/favicon.png">
+    <img src="https://blog.eunoia.top/12.jpg">
     <div class="dv2">
-        <a href="https://www.rtcraft.cn/">
-            <h4>RTCraft 服务器官网</h4>
-            <p>一个生存类RPG服务器</p>
+        <a href="https://blog.eunoia.top/">
+            <h4>Eunoia博客</h4>
+            <p>山海不可平</p>
         </a>
     </div>
 </div>
 
 <div class="friends">
-    <img src="https://media-fs.huahuo-cn.tk/api/raw/?path=/flicon/%5BThumb%5D640735631011-db749195-72fc-3cc1-8957-001348289fa0.jpg">
+    <img src="https://xiaojin233.cn/img/avator.png">
     <div class="dv2">
-        <a href="http://www.mspx.tk/">
-            <h4>MSMP-Earth</h4>
-            <p>MSMP-Earth服务器官网</p>
+        <a href="https://xiaojin233.cn/">
+            <h4>Xiao_Jin</h4>
+            <p>5050net（AS149795 Zhijie Jin）NOC</p>
         </a>
     </div>
 </div>
 
 <div class="friends">
-    <!--<img src="https://q2.qlogo.cn/headimg_dl?dst_uin=395667235&spec=640">-->
+    <img src="https://s2.loli.net/2023/07/04/LkGnOupNKtxTPlZ.png">
+    <div class="dv2">
+        <a href="https://mspx.tk/">
+            <h4>MSMP</h4>
+            <p>Maplefall服务器官网</p>
+        </a>
+    </div>
+</div>
+
+<div class="friends">
+    <img src="https://locyanfrp.cn/favicon.ico">
     <div class="dv2">
         <a href="https://locyanfrp.cn/">
             <h4>Locyan Frp</h4>
@@ -121,7 +131,7 @@
 </div>
 
 <div class="friends">
-    <img src="https://i0.wp.com/img-2.shanrenyi.top/i/2022/07/11/62cbd8d6468e5.png">
+    <img src="https://pic-img.shanrenyi.top/i/2023/03/07/7dc8b8dd-02b1-b3f2-bc3c-63052d5b5b6a.png">
     <div class="dv2">
         <a href="https://shanrenyi.top/">
             <h4>Charles' Blog</h4>
