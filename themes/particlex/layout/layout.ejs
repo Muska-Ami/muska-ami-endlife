@@ -1,88 +1,58 @@
 <%
-var layout = "post";
-if (is_home())
-    layout = "index";
-else if (is_tag() || page.title == "tags")
-    layout = "tags";
-else if (is_page())
-    layout = "page";
-else if (is_post())
-    layout = "post";
-else if (is_category() || page.title == "categories")
-    layout = "categories";
-else if (is_archive() || is_year() || is_month())
-    layout = "archives";
-var pageTitle = "";
-if (page.title)
-    pageTitle = page.title + " | ";
-else if (is_category())
-    pageTitle = "Categories: " + page.category + " | ";
-else if (is_tag())
-    pageTitle = "Tags: " + page.tag + " | ";
-else if (is_archive() || is_year() || is_month())
-    pageTitle = "Archives | ";
-pageTitle += config.title;
-var rootlink = config.root;
-site.posts.data.sort((a, b) => b.date - a.date);
+    let type;
+    if (is_home()) type = "index";
+    if (is_post() || is_page()) type = "post";
+    if (is_category() || page.type === "categories") type = "categories";
+    if (is_tag() || page.type === "tags") type = "tags";
+    if (is_archive()) type = "archives";
+    let title;
+    if (is_home()) title = config.title;
+    if (is_post() || is_page()) title = page.title + " | " + config.title;
+    if (is_category()) title = "Categories: " + page.category + " | " + config.title;
+    if (is_tag()) title = "Tags: " + page.tag + " | " + config.title;
+    if (is_archive()) title = "Archives | " + config.title;
 %>
 <!DOCTYPE html>
 <html lang="<%- config.language %>">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-    <title><%= titlecase(pageTitle) %></title>
-    <meta name="author" content="<%- config.author %>">
-    <meta name="description" content="<%- config.description %>">
-    <meta name="keywords" content="<%- config.keywords %>">
-    <link rel="icon" href="<%- theme.favicon %>">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.1/instantpage.min.js" type="module"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
-    <% if (theme.vf_fonts_enable) { %>
-        <link rel="stylesheet" href="<%- rootlink %>css/test/fonts.min.css">
-        <link rel="stylesheet" href="<%- rootlink %>css/test/particlex.css">
-    <% } else { %>
-        <link rel="stylesheet" href="<%- rootlink %>css/fonts.min.css">
-        <link rel="stylesheet" href="<%- rootlink %>css/particlex.css">
-        <% if (layout == "post") { %>
-            <link rel="stylesheet" href="<%- rootlink %>css/others.css">
-            <!--<link res="stylesheet" href="<%- rootlink %>css/filter.css">-->
-        <% } %>
-        <link rel="stylesheet" href="<%- rootlink %>css/admonition.css">
-    <% } %>
-    <link rel="stylesheet" href="<%- rootlink %>css/friends.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.45/vue.global.prod.min.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4Y75G9Q6MC"></script>
-    <script src="<%- rootlink %>js/gstatic.js"></script>
-</head>
-<body>
-<%- include("loading") %>
-
-<div id="layout">
-    <i data-fa-symbol="calendar-solid" class="fa-solid fa-calendar fa-fw"></i>
-    <i data-fa-symbol="bookmark-solid" class="fa-solid fa-bookmark fa-fw"></i>
-    <i data-fa-symbol="tags-solid" class="fa-solid fa-tags fa-fw"></i>
-    <transition name="into">
-        <div v-show="show_page" style="display: -not-none">
-            <div id="menu_show">
-                <%- include("menu") %>
-            </div>
-            <div id="main">
-                <%- include(layout) %>
-                <%- include("footer") %>
-            </div>
+    <head>
+        <meta charset="utf-8" />
+        <title><%= title %></title>
+        <meta name="author" content="<%- config.author %>" />
+        <meta name="description" content="<%- config.description %>" />
+        <meta name="keywords" content="<%- config.keywords %>" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <link rel="icon" href="<%- url_for(theme.favicon) %>" />
+        <%- partial("import", { type }) %>
+    </head>
+    <body>
+        <div id="layout">
+            <transition name="fade">
+                <div id="loading" v-show="loading">
+                    <div id="loading-circle">
+                        <h2>LOADING</h2>
+                        <p>加载过慢请开启缓存 浏览器默认开启</p>
+                        <img src="<%- url_for("/images/loading.gif") %>" />
+                    </div>
+                </div>
+            </transition>
+            <%- partial("menu") %>
+            <transition name="into">
+                <div id="main" v-show="!loading">
+                    <%- partial(type) %>
+                    <%- partial("footer") %>
+                </div>
+            </transition>
+            <% if (theme.preview.enable) { %>
+            <transition name="fade">
+                <div id="preview" ref="preview" v-show="previewShow">
+                    <img id="preview-content" ref="previewContent" />
+                </div>
+            </transition>
+            <% } %>
         </div>
-    </transition>
-    <div id="img_show">
-        <img id="img_content" alt="img_show">
-    </div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-<script src="<%- rootlink %>js/particlex.js"></script>
-<script src="<%- rootlink %>js/showimg.js"></script>
-<% if (layout == "post") { %>
-    <!--<script src="<%- rootlink %>js/imgloader.js"></script>-->
-<% } %>
-<%- include("script") %>
-</body>
+        <script src="<%- url_for("/js/main.js") %>"></script>
+        <% if (type === "post" && page.comments) { %>
+        <%- partial("comment") %>
+        <% } %>
+    </body>
 </html>

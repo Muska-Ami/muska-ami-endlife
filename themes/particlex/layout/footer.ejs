@@ -1,40 +1,26 @@
-<% var rootlink = config.root; %>
 <footer id="footer">
-    <div class="footer-wrap">
+    <div id="footer-wrap">
         <div>
-            © <%= theme.footer.since %> - <%= date(Date.now(), "YYYY") %> <%= config.title %>
-            <span class="footer-icon">
+            &copy;
+            <%= theme.footer.since %> - <%= date(Date.now(), "YYYY") %> <%= config.title %>
+            <span id="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
-            <%= config.author %>
+            &commat;<%= config.author %>
         </div>
-        <div></div>
-        <div>Powered by <a href="https://hexo.io/">Hexo</a> | Theme <a
-                    href="https://github.com/argvchs/hexo-theme-particlex">ParticleX</a> (已修改)
+        <div>
+            Based on the <a href="https://hexo.io">Hexo Engine</a> &amp;
+            <a href="https://github.com/theme-particlex/hexo-theme-particlex">ParticleX Theme</a>
         </div>
-        <% if (theme.footer.MoeICP.enable) { %>
-            <div>
-                <img src="<%= theme.footer.MoeICP.icon %>" style="height: 12px"><a
-                        href="https://icp.gov.moe/?keyword=<%= theme.footer.MoeICP.code %>">萌ICP备<%= theme.footer.MoeICP.code %>
-                    号</a>
-            </div>
-        <% } %>
         <% if (theme.footer.ICP.enable) { %>
-            <div>
-                备案号：
-                <% if (theme.footer.ICP.link) { %>
-                    <a href="<%= theme.footer.ICP.link %>">
-                        <%= theme.footer.ICP.code %>
-                    </a>
-                <% } else { %>
-                    <%= theme.footer.ICP.code %>
-                <% } %>
-            </div>
-        <% } %>
-        <div title="MySSL 安全签章" id="myssl_seal"
-             onclick="window.open('https://myssl.com/seal/detail?domain=huahuo-cn.tk','MySSL安全签章','height=800,width=470,top=0,right=0,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,status=no')"
-             style="text-align: center"><img src="https://sealres.myssl.com/seal/img/1x/seal.png?domain=huahuo-cn.tk"
-                                             alt="MySSL 安全签章" style="width: 100px; height: auto; cursor: pointer">
+        <div>
+            备案号：
+            <% if (theme.footer.ICP.link) { %>
+            <a href="<%- url_for(theme.footer.ICP.link) %>"><%= theme.footer.ICP.code %></a>
+            <% } else { %>
+            <%= theme.footer.ICP.code %>
+            <% } %>
         </div>
+        <% } %>
     </div>
 </footer>

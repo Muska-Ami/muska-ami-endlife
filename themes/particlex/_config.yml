@@ -1,113 +1,103 @@
-# Theme Github link: https://github.com/argvchs/hexo-theme-particlex
-# Developer: argvchs
+# ParticleX Configuration
+# https://github.com/theme-particlex/hexo-theme-particlex
+
+# Avatar image
+avatar: /images/favicon.png
+
 # Favicon
 favicon: /images/favicon.png
 
-title: XiaMoHuaHuo_CN's Blog
+# Home page background image
+background:
+    - https://dmoe.cc/random.php
 
-# avatar image url
-head_img: https://q.qlogo.cn/g?b=qq&nk=2549619802&s=640
+# ParticleX theme icon is adopts the Font Awesome 6
+# https://fontawesome.com
 
-# home page head info block
-head_block_enable: true
-
-# home page jinrishici
-jinrishici: true
-
-# home page head background style
-home_background: https://api.ixiaowai.cn/api/api2.php #https://api.ixiaowai.cn/api/api.php
-
-# WARNING! vf_fonts (variable fonts) feature is EXPERIMENTAL
-# MDN: https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
-vf_fonts_enable: false
-
-# ParticleX theme icon is adopts the font awesome 6
-# Link: https://fontawesome.com/search/
-
-# main menu navigation
+# Main menu navigation
 menu:
-    首页:
+    主页:
         name: house
         theme: solid
-        src: /
-    归档:
-        name: box-archive
-        theme: solid
-        src: /archives
-    标签:
-        name: tags
-        theme: solid
-        src: /tags
+        link: /
     关于:
         name: id-card
         theme: solid
-        src: /about
-    友情链接:
-        name: user-group
+        link: /about
+    #Archives:
+    #    name: box-archive
+    #    theme: solid
+    #    link: /archives
+    Categories:
+        name: bookmark
         theme: solid
-        src: /links
-    如何正确提问:
-        name: circle-question
+        link: /categories
+    标签:
+        name: tags
         theme: solid
-        src: /how-to-ask-question
-    # Example:
-    # <name>:
-    #     name: <icon-name>
-    #     theme: <icon-theme>
-    #     src: <link-url>
+        link: /tags
 
-# side info card
+# Side info card
 card:
     enable: true
-    description: ["Keep doing, keep loving.❤"] # You can add more
-    icon_links:
-        bilibili:
-            name: bilibili
-            theme: brands
-            link: https://space.bilibili.com/372657168
-        twitter:
-            name: twitter
-            theme: brands
-            link: https://twitter.com/XiaMoHuaHuo_CN
-        github:
-            name: github
-            theme: brands
-            link: https://github.com/XiaMoHuaHuo-CN
-        klpbbs:
-            name: earth-americas
-            theme: solid
-            link: https://klpbbs.com/?71576
-        mcbbs:
-            name: earth-americas
-            theme: solid
-            link: https://www.mcbbs.net/?2829459
-        qq:
-            name: qq
-            theme: brands
-            link: http://wpa.qq.com/msgrd?v=3&uin=2549619802&site=qq&menu=yes
-        # Example:
-        # <name>:
-        #    name: <icon-name>
-        #    theme: <icon-theme>
-        #    link: <link-url>
-    friend_links:
-        赞助我: https://sponsors.huahuo-cn.tk/
-        # Example:
-        # <name>: <link-url>
+    description: Keep doing, keep loving❤.
+    iconLinks:
+    friendLinks: []
 
-# footer info
+# Footer info
 footer:
-    since: 2021
-    # MoeICP
-    MoeICP:
-        enable: true
-        code: 20220860
-        icon: /images/moeicpico64.png
+    since: 2022
     # Customize the server domain name ICP
     ICP:
         enable: false
         code:
         link:
+
+# Polyfill
+# https://polyfill.io
+polyfill:
+    enable: true
+    features:
+        - default
+
+# Highlight.js
+# https://highlightjs.org
+highlight:
+    enable: true
+    style: github
+
+# KaTeX math rendering
+math:
+    enable: false
+
+# Image preview
+preview:
+    enable: true
+
+# Article encryption
+crypto:
+    enable: false
+
+# Search
+search:
+    enable: true
+
+# Giscus
+# https://github.com/giscus/giscus
+giscus:
+    enable: false
+    src: https://giscus.app/client.js
+    repo:
+    repoID:
+    category:
+    categoryID:
+    mapping: pathname
+    strict: 0
+    reactionsEnabled: 1
+    emitMetadata: 0
+    inputPosition: bottom
+    theme: preferred_color_scheme
+    lang:
 
 # Gitalk
 # https://github.com/gitalk/gitalk
@@ -118,14 +108,8 @@ gitalk:
     repo: # The name of repository of store comments
     owner: # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize github issues
-    language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available.
+    language: # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available
     proxy: # CORS proxy
-    sites: # Sites
-        []
-        # Example:
-        # <www.example.com>:
-        #    clientID: <client-id>
-        #    clientSecret: <client-secret>
 
 # Waline
 # https://github.com/walinejs/waline
@@ -133,31 +117,29 @@ waline:
     enable: true
     serverURL: https://comment-service.huahuo-cn.tk # Waline server address url, you should set this to your own link
     locale: # Locale: https://waline.js.org/guide/client/i18n.html#locale-option
-        {}
-        # Example:
-        # placeholder: Leave a comment
     commentCount: true # If false, comment count will only be displayed in post page, not in home page
     pageview: false # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`
     emoji: # Custom emoji
-        - https://unpkg.com/@waline/emojis@latest/bilibili
-        - https://unpkg.com/@waline/emojis@latest/qq
-        - https://unpkg.com/@waline/emojis@latest/tieba
+        - https://unpkg.com/@waline/emojis@1.2.0/bilibili
+        - https://unpkg.com/@waline/emojis@1.2.0/qq
+        - https://unpkg.com/@waline/emojis@1.2.0/tw-emoji
     meta: # Comment information, valid meta are nick, mail and link
         - nick
         - mail
         - link
     requiredMeta: # Set required meta field, e.g.: [nick] | [nick, mail]
         - nick
-    lang: zh-CN # Language, available values: en-US, zh-CN, zh-TW, pt-BR, ru-RU, jp-JP
-    wordLimit: 0 # Word limit, no limit when setting to 0
+        - email
+    lang: # Language, available values: en-US, zh-CN, zh-TW, pt-BR, ru-RU, jp-JP
+    wordLimit: 1000 # Word limit, no limit when setting to 0
     login: enable # Whether enable login, can choose from 'enable', 'disable' and 'force'
     pageSize: 10 # Comment per page
-    #recaptchaV3Key: 6LftErYjAAAAAMycg5tTygJ3guWywZdUQha5hrMK
-    turnstileKey: 0x4AAAAAAACV2yY6cMxcMbWm
 
-postbottom:
-    enable: true
-    text: 本站除特殊声明，均采用CC-BY-SA-4.0协议
-    license:
-        name: CC-BY-SA-4.0
-        url: https://creativecommons.org/licenses/by-sa/4.0/
+# Twikoo
+# https://github.com/imaegoo/twikoo
+twikoo:
+    enable: false
+    envID:
+    region:
+    path: location.pathname
+    lang:
