@@ -1,24 +1,24 @@
----
-title: 关于
----
-# 关于XiaMoHuaHuo_CN's Blog
+你好，我叫夏沫花火zzz，英文名XiaMoHuaHuo_CN。
+我的人格是INFJ-T/INFP-T。
 
-Copyright © 2021 - <script>document.write(new Date().getFullYear());</script> XiaMoHuaHuo_CN
+事实上，我自认为自己是一个理想主义者，无法将平常事抛之脑后的怪人。
 
-Powered by [Hexo](https://hexo.io)
-Theme [ParticleX](https://github.com/argvchs/hexo-theme-particlex)
-萌ICP备[20220860](https://icp.gov.moe/?keyword=20220860)号
+真实性别保密，年龄保密，学历保密，身高170cm左右，长相自认为一般，和普通人相比可能还要更丑些。
 
-[GitHub](https://github.com)提供 站点储存
-[Cloudflare](https://cloudflare.com)提供 网络服务 支持
-[Vercel](https://vercel.com) ＆ [Netlify](https://netlify.com)提供 构建 & 部署
-[OneDrive](https://onedrive.live.com)提供 文件服务
+喜欢幻想，对一些不切实际的东西有着异常的敏感。爱好信息技术，但常常搞的一团糟。
+没什么硬实力，读书学习总是不求甚解。
 
-使用到的一些开源项目
-OneManager-php [https://github.com/qkqpttgf/OneManager-php/](https://github.com/qkqpttgf/OneManager-php/)
-onedrive-vercel-index [https://github.com/spencerwooo/onedrive-vercel-index/](https://github.com/spencerwooo/onedrive-vercel-index/)
-Cloudreve [https://cloudreve.org/](https://cloudreve.org/)
+活在三次元世界却对二次元纸片情有独钟，不太喜欢3D建模。
 
-# 关于XiaMoHuaHuo_CN
+没有看漫画、看小说的习惯，鼓欠随便看番。
+除此之外有时会看vtb，诸如白菜，mana。
 
-![ME](https://i.328888.xyz/2023/02/05/Na7X5.png)
+几乎没有什么现实的朋友，不喜欢出门。
+喜欢玩Minecraft，Phigros以及一些冷门游戏诸如双子，见。
+自己开个Minecraft服务器，希望能交到更多好友。
+
+爱瞎折腾，喜欢自己造轮子。
+
+其他有空再写吧。
+
+![](https://pan.1l1.icu/f/PeJiR/Screenshot_20230127_000658_tv.danmaku.bili_edit_86989300037247.jpg)
