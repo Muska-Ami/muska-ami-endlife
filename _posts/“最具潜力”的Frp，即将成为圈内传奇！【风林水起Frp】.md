@@ -1,3 +1,9 @@
+---
+title: '“最具潜力”的Frp，即将成为圈内传奇！【风林水起Frp】'
+date: 2023-07-29 22:14:23
+tag: Frp
+---
+
 视频请直接看 @云墨安 的视频：
 <iframe src="//player.bilibili.com/player.html?aid=274055120&bvid=BV1Cc411F7pW&cid=1214857081&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
