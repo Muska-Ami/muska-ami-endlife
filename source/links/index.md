@@ -10,6 +10,16 @@
     - 头像: https://blog.ovome.icu/images/favicon.png
 
 <div class="friends">
+    <img src="https://roy.wang/favicon.png">
+    <div class="dv2">
+        <a href="https://roy.wang/">
+            <h4>ROYWANG</h4>
+            <p>知天命，懂因果</p>
+        </a>
+    </div>
+</div>
+
+<div class="friends">
     <img src="https://blog.eunoia.top/12.jpg">
     <div class="dv2">
         <a href="https://blog.eunoia.top/">
