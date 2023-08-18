@@ -10,6 +10,16 @@
     - 头像: https://blog.ovome.icu/images/favicon.png
 
 <div class="friends">
+    <img src="https://www.wzdc.cc/avatar.png">
+    <div class="dv2">
+        <a href="https://www.wzdc.cc">
+            <h4>无知的错</h4>
+            <p>welcome to my blog</p>
+        </a>
+    </div>
+</div>
+
+<div class="friends">
     <img src="https://roy.wang/favicon.png">
     <div class="dv2">
         <a href="https://roy.wang/">
