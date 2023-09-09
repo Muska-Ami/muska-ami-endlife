@@ -1,13 +1,23 @@
 # 友情链接
 
 本站的一些友链，欢迎来交换友链OVO  
-交换友链请发送<font color="red">邮件</font>到<a href="mailto:mail@huahuo-cn.tk">mail@huahuo-cn.tk</a>  
+交换友链请发送<font color="red">邮件</font>到<a href="mailto:xmcn@1l1.icu">xmcn@1l1.icu</a>  
 
 !!! info 本站信息
     - 名称: XiaMoHuaHuo_CN's Blog
     - 描述: Keep doing, keep loving.
-    - 网址: https://blog.ovome.icu
-    - 头像: https://blog.ovome.icu/images/favicon.png
+    - 网址: https://blog.1l1.icu
+    - 头像: https://blog.1l1.icu/images/favicon.png
+
+<div class="friends">
+    <img src="https://q1.qlogo.cn/g?b=qq&nk=1642981619&s=640">
+    <div class="dv2">
+        <a href="https://pangbai.work">
+            <h4>PangBai'S Blog</h4>
+            <p>摸鱼的旁白</p>
+        </a>
+    </div>
+</div>
 
 <div class="friends">
     <img src="https://www.wzdc.cc/avatar.png">
