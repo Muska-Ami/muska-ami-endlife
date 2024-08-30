@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: XiaMoHuaHuo_CN's Blog
-subtitle: '这里是XiaMoHuaHuo_CN的BLOG'
-description: 'Hello！你好！这里是夏沫花火zzz的小站！'
+title: Ami's Endlife Project
+subtitle: 'End is already ended.'
+description: 'End is already ended.'
 keywords: "夏沫花火zzz,XiaMoHuaHuo_CN,XiaMoHuaHuo-CN,XMCN,XM,HuaHuo_CN,XiaMoHuaHuo_CN's Blog,HuaHuo_CN's Blog"
-author: XiaMoHuaHuo_CN
+author: Endlife
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.ovome.icu
+url: https://endlife.1l1.icu
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -28,8 +28,8 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
-  - "404.html"
+# skip_render:
+#   - "404.html"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: particlex
+theme: arknights
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
